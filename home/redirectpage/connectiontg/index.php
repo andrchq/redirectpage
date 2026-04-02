@@ -56,14 +56,14 @@
             }
 
             .logo {
-                width: 164px;
+                width: 156px;
             }
 
             .header-container {
-                min-height: 72px;
-                padding: 0 6px 12px 6px;
-                margin-bottom: 20px;
-                gap: 16px;
+                min-height: 58px;
+                padding: 0 6px 6px 6px;
+                margin-bottom: 12px;
+                gap: 14px;
             }
 
             [data-theme="light"] .dropdown-toggle {
@@ -85,6 +85,11 @@
             .dropdown-menu {
                 background-color: #ffffff;
                 color: var(--secondary-color);
+                min-width: 100%;
+                width: 100%;
+                border-radius: 14px;
+                padding: 6px;
+                border: 1px solid rgba(255,255,255,.08);
             }
 
             [data-theme="dark"] .dropdown-menu {
@@ -94,6 +99,9 @@
 
             .dropdown-item {
                 color: inherit;
+                border-radius: 10px;
+                min-height: 40px;
+                font-size: 1rem;
             }
 
             .dropdown-item:hover {
@@ -103,6 +111,18 @@
 
             .dropdown-menu {
                 margin-top: 0rem;
+            }
+
+            .dropdown {
+                width: 220px;
+            }
+
+            .dropdown-toggle {
+                width: 100%;
+                min-height: 42px;
+                justify-content: space-between;
+                padding: 8px 12px;
+                border-radius: 12px !important;
             }
 
             .os-section {
@@ -121,7 +141,7 @@
 
             .app-inst {
                 max-width: 760px;
-                margin: 0 auto 18px;
+                margin: 0 auto 10px;
                 padding: 0 12px;
             }
 
@@ -129,15 +149,15 @@
                 font-weight: bold;
                 margin-bottom: 10px;
                 text-align: center;
-                font-size: 1.5rem;
+                font-size: 1.35rem;
             }
 
             .app-inst_text {
-                font-size: 1.1rem;
+                font-size: 1rem;
                 color: var(--secondary-color);
-                margin-bottom: 5px;
+                margin-bottom: 2px;
                 text-align: center;
-                line-height: 1.55;
+                line-height: 1.45;
             }
 
             /* Адаптируем заголовок и текст на экранах ≤768px (планшеты и мобильные) */
@@ -175,15 +195,15 @@
 
             .app-card {
                 background: #f8f9fa;
-                border-radius: 24px;
+                border-radius: 20px;
                 border: 1px solid;
                 border-color: #f2f2f2;
                 box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
-                padding: 2.2rem 2rem;
+                padding: 1.55rem 1.7rem;
                 text-align: center;
                 transition: background-color 0.3s, color 0.3s, box-shadow 0.25s ease, transform 0.25s ease;
                 position: relative;
-                max-width: 920px;
+                max-width: 860px;
                 margin: 0 auto;
             }
 
@@ -219,14 +239,14 @@
             }
 
             .app-card img {
-                width: 150px;
-                margin-bottom: 0.8rem;
+                width: 134px;
+                margin-bottom: 0.45rem;
             }
 
             .app-card h3 {
                 color: var(--app-name-color);
-                margin-bottom: 0.5rem;
-                font-size: 2.1rem;
+                margin-bottom: 0.35rem;
+                font-size: 1.9rem;
                 font-weight: 600;
             }
 
@@ -247,7 +267,7 @@
             }
 
             .app-card p {
-                margin-bottom: 1.2rem;
+                margin-bottom: 0.8rem;
                 color: #6c757d;
             }
 
@@ -404,8 +424,8 @@
             .button-group.step-buttons {
                 display: grid;
                 grid-template-columns: repeat(2, minmax(220px, 1fr));
-                gap: 12px;
-                width: min(100%, 720px);
+                gap: 10px;
+                width: min(100%, 700px);
                 margin: 0 auto;
                 align-items: stretch;
             }
@@ -420,9 +440,9 @@
                 align-items: stretch;
                 justify-content: flex-start;
                 width: 100% !important;
-                min-height: 58px;
+                min-height: 54px;
                 margin-bottom: 0;
-                border-radius: 16px;
+                border-radius: 12px;
                 text-decoration: none !important;
                 overflow: hidden;
                 transition: transform .15s ease, box-shadow .2s ease, filter .2s ease;
@@ -435,7 +455,7 @@
                 align-items: center;
                 justify-content: center;
                 gap: 6px;
-                width: 76px;
+                width: 64px;
                 font-size: 18px;
                 font-weight: 700;
                 user-select: none;
@@ -446,7 +466,7 @@
             /* Иконки — один размер для всех */
             .step-btn .step-num i {
                 font-size: 18px;
-                width: 18px; /* фиксированная ширина */
+                width: 18px;
                 text-align: center;
             }
 
@@ -456,8 +476,8 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding: 0 18px;
-                font-size: 18px;
+                padding: 0 16px;
+                font-size: 20px;
                 font-weight: 500;
                 white-space: nowrap;
                 line-height: 1.1;
@@ -532,18 +552,18 @@
                 .button-group.step-buttons {
                     grid-template-columns: 1fr;
                     width: 100%;
-                    max-width: 340px;
+                    max-width: 320px;
                 }
                 .step-btn {
                     width: 100% !important;
-                    max-width: 340px;
-                    min-height: 52px;
+                    max-width: 320px;
+                    min-height: 50px;
                 }
                 .step-btn .step-num {
-                    width: 52px;
+                    width: 50px;
                 }
                 .step-btn .step-label {
-                    font-size: 16px;
+                    font-size: 18px;
                     white-space: normal;
                     text-align: center;
                 }
@@ -575,18 +595,18 @@
 
             @media (min-width: 992px) {
                 .os-section {
-                    max-width: 980px;
-                    padding: 0.75rem;
+                    max-width: 930px;
+                    padding: 0.25rem 0.75rem 0.5rem;
                 }
 
                 .app-card {
                     display: grid;
-                    grid-template-columns: 180px minmax(0, 1fr);
+                    grid-template-columns: 156px minmax(0, 1fr);
                     grid-template-areas:
                         "image title"
                         "image requirements"
                         "image actions";
-                    column-gap: 32px;
+                    column-gap: 24px;
                     align-items: center;
                     text-align: left;
                 }
@@ -594,17 +614,17 @@
                 .app-card img {
                     grid-area: image;
                     margin: 0 auto;
-                    width: 160px;
+                    width: 132px;
                 }
 
                 .app-card h3 {
                     grid-area: title;
-                    margin-bottom: 0.75rem;
+                    margin-bottom: 0.45rem;
                 }
 
                 .app-card p {
                     grid-area: requirements;
-                    margin-bottom: 1.25rem;
+                    margin-bottom: 0.8rem;
                 }
 
                 .app-card .button-group.step-buttons {
@@ -613,11 +633,58 @@
                 }
 
                 .app-inst {
-                    max-width: 860px;
+                    max-width: 820px;
                 }
 
                 .app-inst_text {
-                    font-size: 1.08rem;
+                    font-size: 0.98rem;
+                }
+            }
+
+            @media (min-width: 992px) and (max-height: 920px) {
+                .header-container {
+                    min-height: 50px;
+                    margin-bottom: 8px;
+                }
+
+                .app-inst {
+                    margin-bottom: 6px;
+                }
+
+                .app-inst_header {
+                    font-size: 1.2rem;
+                    margin-bottom: 6px;
+                }
+
+                .app-inst_text {
+                    font-size: 0.92rem;
+                    line-height: 1.35;
+                }
+
+                .container.py-5 {
+                    padding-top: 0.8rem !important;
+                    padding-bottom: 0.8rem !important;
+                }
+
+                .app-card {
+                    padding-top: 1.2rem;
+                    padding-bottom: 1.2rem;
+                }
+
+                .app-card img {
+                    width: 118px;
+                }
+
+                .app-card h3 {
+                    font-size: 1.75rem;
+                }
+
+                .step-btn {
+                    min-height: 50px;
+                }
+
+                .step-btn .step-label {
+                    font-size: 18px;
                 }
             }
 
