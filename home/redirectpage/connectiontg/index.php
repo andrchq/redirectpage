@@ -67,19 +67,19 @@
             }
 
             [data-theme="light"] .dropdown-toggle {
-                background-color: transparent !important;
+                background-color: #e9ecef !important;
                 color: var(--secondary-color) !important;
                 box-shadow: none !important;
                 transition: color 0.3s;
-                border: none;
+                border: 1px solid rgba(0,0,0,.08);
             }
 
             [data-theme="dark"] .dropdown-toggle {
-                background-color: transparent !important;
+                background-color: #343a40 !important;
                 color: #ffffff !important;
                 box-shadow: none !important;
                 transition: color 0.3s;
-                border: none;
+                border: 1px solid rgba(255,255,255,.08);
             }
 
             .dropdown-menu {
@@ -102,6 +102,14 @@
                 border-radius: 10px;
                 min-height: 40px;
                 font-size: 1rem;
+                display: grid;
+                grid-template-columns: 22px 1fr;
+                align-items: center;
+                justify-content: start;
+                column-gap: 10px;
+                text-align: left;
+                padding: 8px 12px;
+                width: 100%;
             }
 
             .dropdown-item:hover {
@@ -123,6 +131,23 @@
                 justify-content: space-between;
                 padding: 8px 12px;
                 border-radius: 12px !important;
+                display: grid !important;
+                grid-template-columns: 22px 1fr 16px;
+                align-items: center;
+                column-gap: 10px;
+                text-align: left;
+            }
+
+            .dropdown-toggle::after {
+                justify-self: end;
+                margin-left: 0 !important;
+            }
+
+            .dropdown-toggle .me-2,
+            .dropdown-item .me-2 {
+                margin-right: 0 !important;
+                width: 22px;
+                text-align: center;
             }
 
             .os-section {
