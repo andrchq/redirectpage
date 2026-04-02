@@ -3,11 +3,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+        <script src="vendor/vue/vue.global.prod.js"></script>
 
 
         <style type="text/css">
@@ -1034,7 +1032,7 @@
             }
         </style>
     </head>
-    <body :data-theme="theme" class="d-flex flex-column min-vh-100" data-theme="light">
+    <body :data-theme="theme" class="d-flex flex-column min-vh-100" data-theme="dark">
         <div id="app" data-v-app="">
             <div class="page-frame slider" :class="{ 'show-instruction': showInstructionOverlay }">
                 <div class="page-slider">
@@ -1227,7 +1225,7 @@
             </div>
         </div>
         <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript">
             function copyToClipboard() {
                 const urlParams = new URLSearchParams(window.location.search);
@@ -1355,21 +1353,15 @@
             }
         },
         detectInitialTheme() {
-            const savedTheme = localStorage.getItem("theme");
-            if (savedTheme) return savedTheme;
-            if (window.Telegram && window.Telegram.WebApp) {
-                return window.Telegram.WebApp.colorScheme === "dark" ? "dark" : "light";
-            }
-            return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            return "dark";
         },
         applyTheme(theme) {
-            this.theme = theme;
-            document.body.setAttribute("data-theme", theme);
-            localStorage.setItem("theme", theme);
+            this.theme = "dark";
+            document.body.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
         },
         switchTheme() {
-            const newTheme = this.theme === "dark" ? "light" : "dark";
-            this.applyTheme(newTheme);
+            this.applyTheme("dark");
         },
         openSupportLink() {
             window.open('https://t.me/prsta_helpbot', '_blank');
@@ -1516,10 +1508,7 @@
         setupTelegramThemeListener() {
             if (window.Telegram && window.Telegram.WebApp) {
                 window.Telegram.WebApp.ready();
-                this.applyTheme(window.Telegram.WebApp.colorScheme);
-                window.Telegram.WebApp.onEvent("themeChanged", () => {
-                    this.applyTheme(window.Telegram.WebApp.colorScheme);
-                });
+                this.applyTheme("dark");
             }
         }
     },
