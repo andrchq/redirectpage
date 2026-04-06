@@ -3,11 +3,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="robots" content="noindex, nofollow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.js"></script>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
-        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="vendor/fontawesome/css/all.min.css">
+        <script src="vendor/vue/vue.global.prod.js"></script>
 
 
         <style type="text/css">
@@ -58,28 +56,40 @@
             }
 
             .logo {
-                width: 150px;
+                width: 156px;
+            }
+
+            .header-container {
+                min-height: 58px;
+                padding: 0 6px 6px 6px;
+                margin-bottom: 12px;
+                gap: 14px;
             }
 
             [data-theme="light"] .dropdown-toggle {
-                background-color: transparent !important;
+                background-color: #e9ecef !important;
                 color: var(--secondary-color) !important;
                 box-shadow: none !important;
                 transition: color 0.3s;
-                border: none;
+                border: 1px solid rgba(0,0,0,.08);
             }
 
             [data-theme="dark"] .dropdown-toggle {
-                background-color: transparent !important;
+                background-color: #343a40 !important;
                 color: #ffffff !important;
                 box-shadow: none !important;
                 transition: color 0.3s;
-                border: none;
+                border: 1px solid rgba(255,255,255,.08);
             }
 
             .dropdown-menu {
                 background-color: #ffffff;
                 color: var(--secondary-color);
+                min-width: 100%;
+                width: 100%;
+                border-radius: 14px;
+                padding: 6px;
+                border: 1px solid rgba(255,255,255,.08);
             }
 
             [data-theme="dark"] .dropdown-menu {
@@ -89,6 +99,17 @@
 
             .dropdown-item {
                 color: inherit;
+                border-radius: 10px;
+                min-height: 40px;
+                font-size: 1rem;
+                display: grid;
+                grid-template-columns: 22px 1fr;
+                align-items: center;
+                justify-content: start;
+                column-gap: 10px;
+                text-align: left;
+                padding: 8px 12px;
+                width: 100%;
             }
 
             .dropdown-item:hover {
@@ -98,6 +119,35 @@
 
             .dropdown-menu {
                 margin-top: 0rem;
+            }
+
+            .dropdown {
+                width: 220px;
+            }
+
+            .dropdown-toggle {
+                width: 100%;
+                min-height: 42px;
+                justify-content: space-between;
+                padding: 8px 12px;
+                border-radius: 12px !important;
+                display: grid !important;
+                grid-template-columns: 22px 1fr 16px;
+                align-items: center;
+                column-gap: 10px;
+                text-align: left;
+            }
+
+            .dropdown-toggle::after {
+                justify-self: end;
+                margin-left: 0 !important;
+            }
+
+            .dropdown-toggle .me-2,
+            .dropdown-item .me-2 {
+                margin-right: 0 !important;
+                width: 22px;
+                text-align: center;
             }
 
             .os-section {
@@ -115,21 +165,24 @@
             }
 
             .app-inst {
-                max-width: 600px;
-                margin-bottom: 20px;
+                max-width: 760px;
+                margin: 0 auto 10px;
+                padding: 0 12px;
             }
 
             .app-inst_header {
                 font-weight: bold;
                 margin-bottom: 10px;
                 text-align: center;
+                font-size: 1.35rem;
             }
 
             .app-inst_text {
-                font-size: 1.1rem;
+                font-size: 1rem;
                 color: var(--secondary-color);
-                margin-bottom: 5px;
+                margin-bottom: 2px;
                 text-align: center;
+                line-height: 1.45;
             }
 
             /* Адаптируем заголовок и текст на экранах ≤768px (планшеты и мобильные) */
@@ -170,11 +223,18 @@
                 border-radius: 20px;
                 border: 1px solid;
                 border-color: #f2f2f2;
-                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-                padding: 2rem;
+                box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+                padding: 1.55rem 1.7rem;
                 text-align: center;
-                transition: background-color 0.3s, color 0.3s;
+                transition: background-color 0.3s, color 0.3s, box-shadow 0.25s ease, transform 0.25s ease;
                 position: relative;
+                max-width: 860px;
+                margin: 0 auto;
+            }
+
+            .app-card:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
             }
 
             /* Уменьшаем изображение на планшетах и мобильных */
@@ -204,14 +264,14 @@
             }
 
             .app-card img {
-                width: 150px;
-                margin-bottom: 0.4rem;
+                width: 134px;
+                margin-bottom: 0.45rem;
             }
 
             .app-card h3 {
                 color: var(--app-name-color);
-                margin-bottom: 0.4rem;
-                font-size: 2.0rem;
+                margin-bottom: 0.35rem;
+                font-size: 1.9rem;
                 font-weight: 600;
             }
 
@@ -232,7 +292,7 @@
             }
 
             .app-card p {
-                margin-bottom: 1.0rem;
+                margin-bottom: 0.8rem;
                 color: #6c757d;
             }
 
@@ -332,7 +392,7 @@
                 text-decoration: none;
                 /* Убираем стандартное подчеркивание */
                 border: 1px solid #000;
-                /* Рамка 1px черного цвета */
+                /* ����� 1px ������� ����� */
                 border-radius: 30px;
                 /* Скругленные углы */
                 border-color: var(--secondary-color);
@@ -387,9 +447,16 @@
 
             /* STEP BUTTONS — единая кнопка с номером слева */
             .button-group.step-buttons {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(220px, 1fr));
+                gap: 10px;
+                width: min(100%, 700px);
+                margin: 0 auto;
+                align-items: stretch;
+            }
+
+            .button-group.step-buttons > .step-btn:last-child:nth-child(odd) {
+                grid-column: 1 / -1;
             }
 
             /* Общий вид единой кнопки шага */
@@ -397,37 +464,34 @@
                 display: flex;
                 align-items: stretch;
                 justify-content: flex-start;
-                width: 280px !important;
-                height: 50px;
-                margin-bottom: 10px;
-                border-radius: var(--bs-btn-border-radius, 0.375rem);
-                text-decoration: none !important;
-                overflow: hidden; /* чтобы радиус применялся ко всем частям */
-                transition: transform .02s ease-in-out, box-shadow .2s ease;
-            }
-
-            .step-btn:last-child {
+                width: 100% !important;
+                min-height: 54px;
                 margin-bottom: 0;
+                border-radius: 12px;
+                text-decoration: none !important;
+                overflow: hidden;
+                transition: transform .15s ease, box-shadow .2s ease, filter .2s ease;
+                box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
             }
 
             /* Левая часть с номером и иконкой */
             .step-btn .step-num {
                 display: flex;
                 align-items: center;
-                justify-content: center; /* строго по центру */
+                justify-content: center;
                 gap: 6px;
-                width: 90px; /* одинаковая фиксированная ширина для всех */
+                width: 64px;
                 font-size: 18px;
                 font-weight: 700;
                 user-select: none;
-                border-right: 1px solid rgba(255,255,255,.25);
+                border-right: 1px solid rgba(255,255,255,.22);
                 text-align: center;
             }
 
             /* Иконки — один размер для всех */
             .step-btn .step-num i {
                 font-size: 18px;
-                width: 18px; /* фиксированная ширина */
+                width: 18px;
                 text-align: center;
             }
 
@@ -438,9 +502,10 @@
                 align-items: center;
                 justify-content: center;
                 padding: 0 16px;
-                font-size: 21px;
+                font-size: 20px;
                 font-weight: 500;
                 white-space: nowrap;
+                line-height: 1.1;
             }
 
             /* Цветовые варианты (соответствуют прежним шагам) */
@@ -495,6 +560,8 @@
             .step-btn:focus {
                 text-decoration: none;
                 filter: brightness(1.03);
+                box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+                transform: translateY(-1px);
             }
             .step-btn:active {
                 transform: translateY(1px);
@@ -507,13 +574,23 @@
 
             /* Адаптив: чуть ниже высота и ширина */
             @media (max-width: 768px) {
+                .button-group.step-buttons {
+                    grid-template-columns: 1fr;
+                    width: 100%;
+                    max-width: 320px;
+                }
                 .step-btn {
                     width: 100% !important;
                     max-width: 320px;
-                    height: 48px;
+                    min-height: 50px;
                 }
                 .step-btn .step-num {
-                    width: 52px;
+                    width: 50px;
+                }
+                .step-btn .step-label {
+                    font-size: 18px;
+                    white-space: normal;
+                    text-align: center;
                 }
             }
 
@@ -538,7 +615,102 @@
             }
 
             .container {
-                margin-top: -50px;
+                margin-top: -20px;
+            }
+
+            @media (min-width: 992px) {
+                .os-section {
+                    max-width: 930px;
+                    padding: 0.25rem 0.75rem 0.5rem;
+                }
+
+                .app-card {
+                    display: grid;
+                    grid-template-columns: 156px minmax(0, 1fr);
+                    grid-template-areas:
+                        "image title"
+                        "image requirements"
+                        "image actions";
+                    column-gap: 24px;
+                    align-items: center;
+                    text-align: left;
+                }
+
+                .app-card img {
+                    grid-area: image;
+                    margin: 0 auto;
+                    width: 132px;
+                }
+
+                .app-card h3 {
+                    grid-area: title;
+                    margin-bottom: 0.45rem;
+                }
+
+                .app-card p {
+                    grid-area: requirements;
+                    margin-bottom: 0.8rem;
+                }
+
+                .app-card .button-group.step-buttons {
+                    grid-area: actions;
+                    margin-left: 0;
+                }
+
+                .app-inst {
+                    max-width: 820px;
+                }
+
+                .app-inst_text {
+                    font-size: 0.98rem;
+                }
+            }
+
+            @media (min-width: 992px) and (max-height: 920px) {
+                .header-container {
+                    min-height: 50px;
+                    margin-bottom: 8px;
+                }
+
+                .app-inst {
+                    margin-bottom: 6px;
+                }
+
+                .app-inst_header {
+                    font-size: 1.2rem;
+                    margin-bottom: 6px;
+                }
+
+                .app-inst_text {
+                    font-size: 0.92rem;
+                    line-height: 1.35;
+                }
+
+                .container.py-5 {
+                    padding-top: 0.8rem !important;
+                    padding-bottom: 0.8rem !important;
+                }
+
+                .app-card {
+                    padding-top: 1.2rem;
+                    padding-bottom: 1.2rem;
+                }
+
+                .app-card img {
+                    width: 118px;
+                }
+
+                .app-card h3 {
+                    font-size: 1.75rem;
+                }
+
+                .step-btn {
+                    min-height: 50px;
+                }
+
+                .step-btn .step-label {
+                    font-size: 18px;
+                }
             }
 
             .notification {
@@ -632,7 +804,7 @@
                 color: #0062cc; !important;
             }
 
-            /* Размытие фона при открытии модального окна */
+            /* �������� ���� ��� �������� ���������� ���� */
             .modal-backdrop {
                 background-color: rgba(0, 0, 0, 0.9) !important;
             }
@@ -952,15 +1124,14 @@
             }
         </style>
     </head>
-    <body :data-theme="theme" class="d-flex flex-column min-vh-100" data-theme="light">
+    <body :data-theme="theme" class="d-flex flex-column min-vh-100" data-theme="dark">
         <div id="app" data-v-app="">
             <div class="page-frame slider" :class="{ 'show-instruction': showInstructionOverlay }">
                 <div class="page-slider">
                     <div class="page-slide main-page" ref="mainPage" tabindex="-1">
             <!-- Hero Section -->
             <section class="container mt-4">
-                <div class="header-container d-flex align-items-center justify-content-between"
-                    style="height: 60px; padding-left: 15px; padding-bottom: 10px; margin-bottom: 20px;"><img
+                <div class="header-container d-flex align-items-center justify-content-between"><img
                         src="img2/logo_1.png" class="logo" alt="Logo">
                     <div class="d-flex align-items-center">
                         <div class="dropdown"><button class="btn dropdown-toggle d-flex align-items-center" type="button" id="osDropdown" data-bs-toggle="dropdown" aria-expanded="false">
@@ -992,7 +1163,7 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендованное приложение" data-bs-original-title="Рекомендованное приложение">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="img2/app_happ.png">
@@ -1007,7 +1178,7 @@
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
                                 <span class="step-label">Установить</span>
                             </a>
-                            <a class="step-btn step-2" href="https://api.prsta.xyz/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
@@ -1023,7 +1194,7 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендованное приложение" data-bs-original-title="Рекомендованное приложение"><i class="fa-solid fa-bolt"></i></span>
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������"><i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="img2/app_happ.png">
                         <h3>Happ</h3>
@@ -1037,7 +1208,7 @@
                                 <span class="step-num">1 <i class="fa fa-download"></i></span>
                                 <span class="step-label">Скачать [.apk]</span>
                             </a>
-                            <a class="step-btn step-3 step-orange" href="https://api.prsta.xyz/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
@@ -1054,7 +1225,7 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="Рекомендованное приложение" data-bs-original-title="Рекомендованное приложение">
+                                aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
@@ -1067,7 +1238,7 @@
                                 <span class="step-num">1 <i class="fa-brands fa-windows"></i></span>
                                 <span class="step-label">Установить</span>
                             </a>
-                            <a class="step-btn step-2" href="https://api.prsta.xyz/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" target="_blank" rel="noopener">
+                            <a class="step-btn step-2" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
@@ -1084,7 +1255,7 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="Рекомендованное приложение" data-bs-original-title="Рекомендованное приложение">
+                                aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
@@ -1146,7 +1317,7 @@
             </div>
         </div>
         <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript">
             function copyToClipboard() {
                 const urlParams = new URLSearchParams(window.location.search);
@@ -1274,21 +1445,15 @@
             }
         },
         detectInitialTheme() {
-            const savedTheme = localStorage.getItem("theme");
-            if (savedTheme) return savedTheme;
-            if (window.Telegram && window.Telegram.WebApp) {
-                return window.Telegram.WebApp.colorScheme === "dark" ? "dark" : "light";
-            }
-            return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            return "dark";
         },
         applyTheme(theme) {
-            this.theme = theme;
-            document.body.setAttribute("data-theme", theme);
-            localStorage.setItem("theme", theme);
+            this.theme = "dark";
+            document.body.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
         },
         switchTheme() {
-            const newTheme = this.theme === "dark" ? "light" : "dark";
-            this.applyTheme(newTheme);
+            this.applyTheme("dark");
         },
         openSupportLink() {
             window.open('https://t.me/prsta_helpbot', '_blank');
@@ -1435,10 +1600,7 @@
         setupTelegramThemeListener() {
             if (window.Telegram && window.Telegram.WebApp) {
                 window.Telegram.WebApp.ready();
-                this.applyTheme(window.Telegram.WebApp.colorScheme);
-                window.Telegram.WebApp.onEvent("themeChanged", () => {
-                    this.applyTheme(window.Telegram.WebApp.colorScheme);
-                });
+                this.applyTheme("dark");
             }
         }
     },
