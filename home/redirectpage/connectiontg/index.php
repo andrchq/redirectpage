@@ -1149,7 +1149,7 @@
             <!--v-if-->
             <div class="app-inst">
                 <h4 class="app-inst_header">Инструкция для Android</h4>
-                <p class="app-inst_text"> ・ Установите приложение <span style="font-weight: 600;">Happ</span><br> ・
+                <p class="app-inst_text"> ・ Установите приложение <span style="font-weight: 600;">INCY</span><br> ・
                     Нажмите кнопку «Добавить ключ» </p>
             </div>
             <!--v-if-->
@@ -1166,24 +1166,28 @@
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
-                        <img src="img2/app_happ.png">
-                        <h3>Happ</h3>
+                        <img src="img2/incy.png">
+                        <h3>INCY</h3>
                         <p class="app-card_requirements">
                             <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 и новее <br>
                             <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 и новее <br>
                             <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> Только для ARM-чипов <br>
                         </p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
                                 <span class="step-label">Установить</span>
                             </a>
-                            <a class="step-btn step-2" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
-                                <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
+                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-macos-arm64.dmg" rel="noopener noreferrer" target="_blank">
+                                <span class="step-num">2 <i class="fa-brands fa-apple"></i></span>
+                                <span class="step-label">Скачать macOS</span>
+                            </a>
+                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                                <span class="step-num">3 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
-                            <a class="step-btn step-3" href="javascript:void(0);" onclick="copyToClipboard()">
-                                <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
+                            <a class="step-btn step-4 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
+                                <span class="step-num">4 <i class="fa-solid fa-copy"></i></span>
                                 <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
@@ -1196,19 +1200,19 @@
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������"><i class="fa-solid fa-bolt"></i></span>
                         </div>
-                        <img src="img2/app_happ.png">
-                        <h3>Happ</h3>
+                        <img src="img2/incy.png">
+                        <h3>INCY</h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-mobile-screen-button card_requirements_icon"></i> Android 8.0 и новее<br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=com.happproxy" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
                                 <span class="step-label">Установить [GPlay]</span>
                             </a>
-                            <a class="step-btn step-2 step-primary" href="https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa fa-download"></i></span>
                                 <span class="step-label">Скачать [.apk]</span>
                             </a>
-                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
@@ -1229,16 +1233,16 @@
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
-                        <img src="img2/app_happ.png">
-                        <h3>HAPP</h3>
+                        <img src="img2/incy.png">
+                        <h3>INCY</h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-laptop card_requirements_icon"></i>
                             Windows 10 и новее <br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe" target="_blank" rel="noopener">
+                            <a class="step-btn step-1" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-windows-setup.exe" target="_blank" rel="noopener">
                                 <span class="step-num">1 <i class="fa-brands fa-windows"></i></span>
                                 <span class="step-label">Установить</span>
                             </a>
-                            <a class="step-btn step-2" href="/redirect.php?url=happ://add/<?php echo urlencode($keyyy); ?>" target="_blank" rel="noopener">
+                            <a class="step-btn step-2" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
                                 <span class="step-label">Добавить ключ</span>
                             </a>
@@ -1259,16 +1263,16 @@
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
-                        <img src="img2/app_happ.png">
-                        <h3>HAPP</h3>
+                        <img src="img2/incy.png">
+                        <h3>INCY</h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-tv card_requirements_icon"></i> Android
                             TV 9 и новее <br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=com.happproxy" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
                                 <span class="step-label">Установить [GPlay]</span>
                             </a>
-                            <a class="step-btn step-2 step-primary" href="https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa fa-download"></i></span>
                                 <span class="step-label">Скачать [.apk]</span>
                             </a>
@@ -1293,14 +1297,14 @@
                                     <i class="fa-solid fa-arrow-left"></i>
                                     <span>Назад</span>
                                 </button>
-                                <img src="img2/logo_1.png" class="overlay-logo" alt="Happ">
+                                <img src="img2/logo_1.png" class="overlay-logo" alt="INCY">
                             </div>
                             <div class="tv-instruction-card">
-                                <h1>Android TV — Happ</h1>
+                                <h1>Android TV — INCY</h1>
                                 <p>Следуйте этим шагам, чтобы установить приложение и активировать ключ подключения на Android TV.</p>
                                 <ol class="tv-instruction-list">
-                                    <li>Откройте <strong>Google Play</strong> на телевизоре и установите <a href="https://play.google.com/store/apps/details?id=com.happproxy" target="_blank" rel="noopener">Happ</a>. Если маркет недоступен, скачайте <a href="https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk" target="_blank" rel="noopener">APK-файл</a> и установите его вручную с USB-накопителя.</li>
-                                    <li>Запустите Happ, дайте приложению все запрошенные разрешения и завершите первоначальную настройку.</li>
+                                    <li>Откройте <strong>Google Play</strong> на телевизоре и установите <a href="https://play.google.com/store/apps/details?id=llc.itdev.incy" target="_blank" rel="noopener">INCY</a>. Если маркет недоступен, скачайте <a href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" target="_blank" rel="noopener">APK-файл</a> и установите его вручную с USB-накопителя.</li>
+                                    <li>Запустите INCY, дайте приложению все запрошенные разрешения и завершите первоначальную настройку.</li>
                                     <li>Добавьте ключ в приложения <strong>следуя инструкции на экране телевизора.</strong></li>
                                 </ol>
                                 <div class="tv-instruction-note">
@@ -1420,22 +1424,22 @@
                 case "iOS":
                     return {
                         header: "Инструкция для iOS/macOS",
-                        text: "・ Установите приложение Happ<br>・ Нажмите кнопку «Добавить ключ»"
+                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
                     };
                 case "Android":
                     return {
                         header: "Инструкция для Android",
-                        text: "・ Установите приложение Happ<br>・ Нажмите кнопку «Добавить ключ»"
+                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
                     };
                 case "Windows":
                     return {
                         header: "Инструкция для Windows",
-                        text: "・ Установите приложение Happ<br>・ Нажмите кнопку «Добавить ключ»"
+                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
                     };
                 case "Android TV":
                     return {
                         header: "Инструкция для Android TV",
-                        text: "・ Установите приложение Happ<br>・ Запустите его<br>・ Следуйте инструкции на экране"
+                        text: "・ Установите приложение INCY<br>・ Запустите его<br>・ Следуйте инструкции на экране"
                     };
                 default:
                     return {
@@ -1467,15 +1471,15 @@
         const urlParams = new URLSearchParams(window.location.search);
         const key = urlParams.get('key') || '';
         const clientLinks = {
-            happ_add: `happ://add/${key}`,
-            happ_appstore: `https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973`,
-            happ_googleplay: `https://play.google.com/store/apps/details?id=com.happproxy`,
+            happ_add: `incy://add/${key}`,
+            happ_appstore: `https://apps.apple.com/ru/app/incy/id6756943388`,
+            happ_googleplay: `https://play.google.com/store/apps/details?id=llc.itdev.incy`,
             v2box_appstore: `https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690`,
             v2box_open: `v2box://`,
             hiddify_microsoftstore: `https://apps.microsoft.com/detail/9pdfnl3qv2s5?hl=ru-RU&gl=DE`,
             hiddify_add: `hiddify://import/${key}`,
-            vpn4tv_googleplay: `https://play.google.com/store/apps/details?id=com.happproxy`,
-            vpn4tv_apk: `https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk`,
+            vpn4tv_googleplay: `https://play.google.com/store/apps/details?id=llc.itdev.incy`,
+            vpn4tv_apk: `https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk`,
         };
         return clientLinks[client] || key;
     },
