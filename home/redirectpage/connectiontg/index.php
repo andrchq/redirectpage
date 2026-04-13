@@ -1137,7 +1137,8 @@
                         <div class="dropdown"><button class="btn dropdown-toggle d-flex align-items-center" type="button" id="osDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                         <i :class="selectedOSIcon" class="me-2"></i> {{ selectedOSText }}</button>
                                     <ul class="dropdown-menu" aria-labelledby="osDropdown">
-                                        <li><button class="dropdown-item d-flex align-items-center" @click="setOS('iOS')"><i class="me-2 fa fa-brands fa-apple"></i> iOS/macOS</button></li>
+                                        <li><button class="dropdown-item d-flex align-items-center" @click="setOS('iOS')"><i class="me-2 fa fa-brands fa-apple"></i> iOS</button></li>
+                                        <li><button class="dropdown-item d-flex align-items-center" @click="setOS('macOS')"><i class="me-2 fa fa-brands fa-apple"></i> macOS</button></li>
                                         <li><button class="dropdown-item d-flex align-items-center" @click="setOS('Android')"><i class="me-2 fa fa-brands fa-android"></i> Android</button></li>
                                         <li><button class="dropdown-item d-flex align-items-center" @click="setOS('Windows')"><i class="me-2 fa fa-brands fa-windows"></i> Windows</button></li>
                                         <li><button class="dropdown-item d-flex align-items-center" @click="setOS('Android TV')"><i class="me-2 fa fa-solid fa-tv"></i> Android TV</button></li>
@@ -1169,26 +1170,50 @@
                         <img src="img2/incy.png">
                         <h3>INCY</h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 и новее <br>
-                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 и новее <br>
-                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> Только для ARM-чипов <br>
+                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 � ����� <br>
+                            <i class="fa-solid fa-tv card_requirements_icon"></i> Apple TV <br>
                         </p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
-                                <span class="step-label">Установить</span>
+                                <span class="step-label">����������</span>
                             </a>
-                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-macos-arm64.dmg" rel="noopener noreferrer" target="_blank">
-                                <span class="step-num">2 <i class="fa-brands fa-apple"></i></span>
-                                <span class="step-label">Скачать macOS</span>
+                            <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                                <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
+                                <span class="step-label">�������� ����</span>
                             </a>
-                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
-                                <span class="step-num">3 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Добавить ключ</span>
+                            <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
+                                <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
+                                <span class="step-label">����������� ����</span>
                             </a>
-                            <a class="step-btn step-4 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
-                                <span class="step-num">4 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">Скопировать ключ</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="os-section macos">
+                <div class="container py-5">
+                    <div class="app-card">
+                        <div class="position-absolute top-0 end-0 mt-3 me-3">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
+                                <i class="fa-solid fa-bolt"></i></span>
+                        </div>
+                        <img src="img2/incy.png">
+                        <h3>INCY</h3>
+                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 � ����� <br>
+                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> ������ ��� ARM-����� <br>
+                        </p>
+                        <div class="button-group step-buttons">
+                            <a class="step-btn step-1 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-macos-arm64.dmg" rel="noopener noreferrer" target="_blank">
+                                <span class="step-num">1 <i class="fa-brands fa-apple"></i></span>
+                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ .dmg</span>
+                            </a>
+                            <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                                <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
+                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                            </a>
+                            <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
+                                <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
+                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
                             </a>
                         </div>
                     </div>
@@ -1348,9 +1373,10 @@
             showHiddifyNotification: false,
             showHappNotification: false,
             subscriptionUrl: '',
-            operatingSystems: ["iOS", "Android", "Windows", "Android TV"],
+            operatingSystems: ["iOS", "macOS", "Android", "Windows", "Android TV"],
             osIcons: {
                 "iOS": "fa-brands fa-apple",
+                "macOS": "fa-brands fa-apple",
                 "Android": "fa-brands fa-android",
                 "Windows": "fa-brands fa-windows",
                 "Android TV": "fa-solid fa-tv",
@@ -1423,8 +1449,13 @@
             switch (this.selectedOS) {
                 case "iOS":
                     return {
-                        header: "Инструкция для iOS/macOS",
+                        header: "Инструкция для iOS",
                         text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
+                    };
+                case "macOS":
+                    return {
+                        header: "Инструкция для macOS",
+                        text: "・ Скачайте приложение INCY<br>・ Откройте файл .dmg<br>・ Нажмите кнопку «Добавить ключ»"
                     };
                 case "Android":
                     return {
@@ -1551,7 +1582,8 @@
         detectOS() {
     const userAgent = navigator.userAgent.toLowerCase();
     if (userAgent.includes("windows")) return "Windows";
-    if (userAgent.includes("mac")) return "iOS";
+    if (userAgent.includes("iphone") || userAgent.includes("ipad") || userAgent.includes("ipod")) return "iOS";
+    if (userAgent.includes("mac")) return "macOS";
     if (userAgent.includes("android")) return "Android";
     if (userAgent.includes("tv")) return "Android TV";
     return "Выберите ОС"; // Если ОС не найдена
@@ -1566,6 +1598,10 @@
     switch (os) {
         case "iOS":
             this.selectedOSText = "iOS";
+            this.selectedOSIcon = "fa-brands fa-apple";
+            break;
+        case "macOS":
+            this.selectedOSText = "macOS";
             this.selectedOSIcon = "fa-brands fa-apple";
             break;
         case "Android":
