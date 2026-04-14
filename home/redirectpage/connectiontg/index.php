@@ -1164,27 +1164,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="img2/incy.png">
                         <h3>INCY</h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 � ����� <br>
+                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 и новее <br>
                             <i class="fa-solid fa-tv card_requirements_icon"></i> Apple TV <br>
                         </p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
-                                <span class="step-label">����������</span>
+                                <span class="step-label">Установить</span>
                             </a>
                             <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">�������� ����</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">����������� ����</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
@@ -1194,31 +1194,33 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="img2/incy.png">
                         <h3>INCY</h3>
-                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 � ����� <br>
-                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> ������ ��� ARM-����� <br>
+                        <p class="app-card_requirements">
+                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 и новее <br>
+                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> Только для ARM-чипов <br>
                         </p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-macos-arm64.dmg" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-apple"></i></span>
-                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ .dmg</span>
+                                <span class="step-label">Скачать .dmg</span>
                             </a>
                             <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
+
             <section class="os-section android active">
                 <div class="container py-5">
                     <div class="app-card">
