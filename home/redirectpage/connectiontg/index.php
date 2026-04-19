@@ -185,36 +185,36 @@
                 line-height: 1.45;
             }
 
-            /* РђРґР°РїС‚РёСЂСѓРµРј Р·Р°РіРѕР»РѕРІРѕРє Рё С‚РµРєСЃС‚ РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
+            /* Р С’Р Т‘Р В°Р С—РЎвЂљР С‘РЎР‚РЎС“Р ВµР С Р В·Р В°Р С–Р С•Р В»Р С•Р Р†Р С•Р С” Р С‘ РЎвЂљР ВµР С”РЎРѓРЎвЂљ Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤768px (Р С—Р В»Р В°Р Р…РЎв‚¬Р ВµРЎвЂљРЎвЂ№ Р С‘ Р СР С•Р В±Р С‘Р В»РЎРЉР Р…РЎвЂ№Р Вµ) */
             @media (max-width: 768px) {
                 .app-inst_header {
                     font-size: 1.2rem;
-                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ Р·Р°РіРѕР»РѕРІРєР° */
-                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С РЎР‚Р В°Р В·Р СР ВµРЎР‚ Р В·Р В°Р С–Р С•Р В»Р С•Р Р†Р С”Р В° */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— РЎРѓР В»Р ВµР Р†Р В° */
                     margin-bottom: 8px;
-                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃРЅРёР·Сѓ */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— РЎРѓР Р…Р С‘Р В·РЎС“ */
                 }
 
                 .app-inst_text {
                     font-size: 0.95rem;
-                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
-                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С РЎР‚Р В°Р В·Р СР ВµРЎР‚ РЎвЂљР ВµР С”РЎРѓРЎвЂљР В° */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— РЎРѓР В»Р ВµР Р†Р В° */
                     margin-bottom: 4px;
-                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃРЅРёР·Сѓ */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— РЎРѓР Р…Р С‘Р В·РЎС“ */
                 }
             }
 
-            /* Р•С‰Рµ РјРµРЅСЊС€РёР№ СЂР°Р·РјРµСЂ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
+            /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р С‘Р в„– РЎР‚Р В°Р В·Р СР ВµРЎР‚ Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤480px (Р С•РЎвЂЎР ВµР Р…РЎРЉ Р СР В°Р В»Р ВµР Р…РЎРЉР С”Р С‘Р Вµ РЎРЊР С”РЎР‚Р В°Р Р…РЎвЂ№) */
             @media (max-width: 480px) {
                 .app-inst_header {
                     font-size: 1.2rem;
-                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ Р·Р°РіРѕР»РѕРІРѕРє */
-                    /* РњРёРЅРёРјР°Р»СЊРЅС‹Р№ РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
+                    /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ Р В·Р В°Р С–Р С•Р В»Р С•Р Р†Р С•Р С” */
+                    /* Р СљР С‘Р Р…Р С‘Р СР В°Р В»РЎРЉР Р…РЎвЂ№Р в„– Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— РЎРѓР В»Р ВµР Р†Р В° */
                 }
 
                 .app-inst_text {
                     font-size: 1rem;
-                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ С‚РµРєСЃС‚ */
+                    /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ РЎвЂљР ВµР С”РЎРѓРЎвЂљ */
                 }
             }
 
@@ -237,21 +237,21 @@
                 box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
             }
 
-            /* РЈРјРµРЅСЊС€Р°РµРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РЅР° РїР»Р°РЅС€РµС‚Р°С… Рё РјРѕР±РёР»СЊРЅС‹С… */
+            /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р С‘Р В·Р С•Р В±РЎР‚Р В°Р В¶Р ВµР Р…Р С‘Р Вµ Р Р…Р В° Р С—Р В»Р В°Р Р…РЎв‚¬Р ВµРЎвЂљР В°РЎвЂ¦ Р С‘ Р СР С•Р В±Р С‘Р В»РЎРЉР Р…РЎвЂ№РЎвЂ¦ */
             @media (max-width: 768px) {
                 .app-card img {
                     max-width: 150px;
-                    /* РћРіСЂР°РЅРёС‡РёРІР°РµРј С€РёСЂРёРЅСѓ */
+                    /* Р С›Р С–РЎР‚Р В°Р Р…Р С‘РЎвЂЎР С‘Р Р†Р В°Р ВµР С РЎв‚¬Р С‘РЎР‚Р С‘Р Р…РЎС“ */
                     height: auto;
-                    /* РЎРѕС…СЂР°РЅСЏРµРј РїСЂРѕРїРѕСЂС†РёРё */
+                    /* Р РЋР С•РЎвЂ¦РЎР‚Р В°Р Р…РЎРЏР ВµР С Р С—РЎР‚Р С•Р С—Р С•РЎР‚РЎвЂ Р С‘Р С‘ */
                 }
             }
 
-            /* Р”Р»СЏ РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёС… СЌРєСЂР°РЅРѕРІ (РјРµРЅСЊС€Рµ 480px) */
+            /* Р вЂќР В»РЎРЏ Р С•РЎвЂЎР ВµР Р…РЎРЉ Р СР В°Р В»Р ВµР Р…РЎРЉР С”Р С‘РЎвЂ¦ РЎРЊР С”РЎР‚Р В°Р Р…Р С•Р Р† (Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ 480px) */
             @media (max-width: 480px) {
                 .app-card img {
                     max-width: 120px;
-                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ */
+                    /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ */
                 }
             }
 
@@ -275,19 +275,19 @@
                 font-weight: 600;
             }
 
-            /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ h3 РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
+            /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С РЎР‚Р В°Р В·Р СР ВµРЎР‚ h3 Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤768px (Р С—Р В»Р В°Р Р…РЎв‚¬Р ВµРЎвЂљРЎвЂ№ Р С‘ Р СР С•Р В±Р С‘Р В»РЎРЉР Р…РЎвЂ№Р Вµ) */
             @media (max-width: 768px) {
                 .app-card h3 {
                     font-size: 1.8rem;
-                    /* РЎС‚Р°РЅРґР°СЂС‚РЅС‹Р№ СЂР°Р·РјРµСЂ РІ Bootstrap - 2rem, СѓРјРµРЅСЊС€Р°РµРј */
+                    /* Р РЋРЎвЂљР В°Р Р…Р Т‘Р В°РЎР‚РЎвЂљР Р…РЎвЂ№Р в„– РЎР‚Р В°Р В·Р СР ВµРЎР‚ Р Р† Bootstrap - 2rem, РЎС“Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С */
                 }
             }
 
-            /* Р•С‰Рµ РјРµРЅСЊС€Рµ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
+            /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤480px (Р С•РЎвЂЎР ВµР Р…РЎРЉ Р СР В°Р В»Р ВµР Р…РЎРЉР С”Р С‘Р Вµ РЎРЊР С”РЎР‚Р В°Р Р…РЎвЂ№) */
             @media (max-width: 480px) {
                 .app-card h3 {
                     font-size: 1.8rem;
-                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ */
+                    /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ */
                 }
             }
 
@@ -310,29 +310,29 @@
                 font-weight: 300;
                 padding: 10px;
                 text-align: center;
-                /* Р’С‹СЂР°РІРЅРёРІР°РµС‚ С‚РµРєСЃС‚ РїРѕ С†РµРЅС‚СЂСѓ */
+                /* Р вЂ™РЎвЂ№РЎР‚Р В°Р Р†Р Р…Р С‘Р Р†Р В°Р ВµРЎвЂљ РЎвЂљР ВµР С”РЎРѓРЎвЂљ Р С—Р С• РЎвЂ Р ВµР Р…РЎвЂљРЎР‚РЎС“ */
                 word-wrap: break-word;
-                /* РџРµСЂРµРЅРѕСЃ С‚РµРєСЃС‚Р°, РµСЃР»Рё РѕРЅ РїСЂРµРІС‹С€Р°РµС‚ С€РёСЂРёРЅСѓ */
+                /* Р СџР ВµРЎР‚Р ВµР Р…Р С•РЎРѓ РЎвЂљР ВµР С”РЎРѓРЎвЂљР В°, Р ВµРЎРѓР В»Р С‘ Р С•Р Р… Р С—РЎР‚Р ВµР Р†РЎвЂ№РЎв‚¬Р В°Р ВµРЎвЂљ РЎв‚¬Р С‘РЎР‚Р С‘Р Р…РЎС“ */
                 margin: 0 auto;
             }
 
-            /* РЈРјРµРЅСЊС€Р°РµРј С‚РµРєСЃС‚ Рё РѕС‚СЃС‚СѓРїС‹ РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
+            /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С РЎвЂљР ВµР С”РЎРѓРЎвЂљ Р С‘ Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С—РЎвЂ№ Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤768px (Р С—Р В»Р В°Р Р…РЎв‚¬Р ВµРЎвЂљРЎвЂ№ Р С‘ Р СР С•Р В±Р С‘Р В»РЎРЉР Р…РЎвЂ№Р Вµ) */
             @media (max-width: 768px) {
                 .app-card_requirements {
                     font-size: 0.9rem;
-                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С РЎР‚Р В°Р В·Р СР ВµРЎР‚ РЎвЂљР ВµР С”РЎРѓРЎвЂљР В° */
                     padding: 8px;
-                    /* РЈРјРµРЅСЊС€Р°РµРј РІРЅСѓС‚СЂРµРЅРЅРёР№ РѕС‚СЃС‚СѓРї */
+                    /* Р Р€Р СР ВµР Р…РЎРЉРЎв‚¬Р В°Р ВµР С Р Р†Р Р…РЎС“РЎвЂљРЎР‚Р ВµР Р…Р Р…Р С‘Р в„– Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— */
                 }
             }
 
-            /* Р•С‰Рµ РјРµРЅСЊС€Рµ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
+            /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ Р Р…Р В° РЎРЊР С”РЎР‚Р В°Р Р…Р В°РЎвЂ¦ РІвЂ°В¤480px (Р С•РЎвЂЎР ВµР Р…РЎРЉ Р СР В°Р В»Р ВµР Р…РЎРЉР С”Р С‘Р Вµ РЎРЊР С”РЎР‚Р В°Р Р…РЎвЂ№) */
             @media (max-width: 480px) {
                 .app-card_requirements {
                     font-size: 0.8rem;
-                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ С‚РµРєСЃС‚ */
+                    /* Р вЂўРЎвЂ°Р Вµ Р СР ВµР Р…РЎРЉРЎв‚¬Р Вµ РЎвЂљР ВµР С”РЎРѓРЎвЂљ */
                     padding: 6px;
-                    /* РљРѕРјРїР°РєС‚РЅС‹Р№ РѕС‚СЃС‚СѓРї */
+                    /* Р С™Р С•Р СР С—Р В°Р С”РЎвЂљР Р…РЎвЂ№Р в„– Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— */
                 }
             }
 
@@ -386,66 +386,66 @@
 
             .btn-v2box-tutorial {
                 display: inline-block;
-                /* Р§С‚РѕР±С‹ СЂР°РјРєР° РєРѕСЂСЂРµРєС‚РЅРѕ РѕР±С‚РµРєР°Р»Р° С‚РµРєСЃС‚ */
+                /* Р В§РЎвЂљР С•Р В±РЎвЂ№ РЎР‚Р В°Р СР С”Р В° Р С”Р С•РЎР‚РЎР‚Р ВµР С”РЎвЂљР Р…Р С• Р С•Р В±РЎвЂљР ВµР С”Р В°Р В»Р В° РЎвЂљР ВµР С”РЎРѓРЎвЂљ */
                 padding: 5px 10px;
-                /* Р”РѕР±Р°РІРёРј РІРЅСѓС‚СЂРµРЅРЅРёР№ РѕС‚СЃС‚СѓРї */
+                /* Р вЂќР С•Р В±Р В°Р Р†Р С‘Р С Р Р†Р Р…РЎС“РЎвЂљРЎР‚Р ВµР Р…Р Р…Р С‘Р в„– Р С•РЎвЂљРЎРѓРЎвЂљРЎС“Р С— */
                 text-decoration: none;
-                /* РЈР±РёСЂР°РµРј СЃС‚Р°РЅРґР°СЂС‚РЅРѕРµ РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ */
+                /* Р Р€Р В±Р С‘РЎР‚Р В°Р ВµР С РЎРѓРЎвЂљР В°Р Р…Р Т‘Р В°РЎР‚РЎвЂљР Р…Р С•Р Вµ Р С—Р С•Р Т‘РЎвЂЎР ВµРЎР‚Р С”Р С‘Р Р†Р В°Р Р…Р С‘Р Вµ */
                 border: 1px solid #000;
-                /* пїЅпїЅпїЅпїЅпїЅ 1px пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
+                /* РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… 1px РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… */
                 border-radius: 30px;
-                /* РЎРєСЂСѓРіР»РµРЅРЅС‹Рµ СѓРіР»С‹ */
+                /* Р РЋР С”РЎР‚РЎС“Р С–Р В»Р ВµР Р…Р Р…РЎвЂ№Р Вµ РЎС“Р С–Р В»РЎвЂ№ */
                 border-color: var(--secondary-color);
                 color: var(--secondary-color);
-                /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
+                /* Р В¦Р Р†Р ВµРЎвЂљ РЎвЂљР ВµР С”РЎРѓРЎвЂљР В° */
                 transition: 0.3s;
-                /* Р­С„С„РµРєС‚ РїСЂРё РЅР°РІРµРґРµРЅРёРё */
+                /* Р В­РЎвЂћРЎвЂћР ВµР С”РЎвЂљ Р С—РЎР‚Р С‘ Р Р…Р В°Р Р†Р ВµР Т‘Р ВµР Р…Р С‘Р С‘ */
             }
 
             .btn-v2box-tutorial:hover {
                 background-color: #f0f0f0;
-                /* Р¦РІРµС‚ С„РѕРЅР° РїСЂРё РЅР°РІРµРґРµРЅРёРё */
+                /* Р В¦Р Р†Р ВµРЎвЂљ РЎвЂћР С•Р Р…Р В° Р С—РЎР‚Р С‘ Р Р…Р В°Р Р†Р ВµР Т‘Р ВµР Р…Р С‘Р С‘ */
                 color: #121212;
-                /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° РїСЂРё РЅР°РІРµРґРµРЅРёРё */
+                /* Р В¦Р Р†Р ВµРЎвЂљ РЎвЂљР ВµР С”РЎРѓРЎвЂљР В° Р С—РЎР‚Р С‘ Р Р…Р В°Р Р†Р ВµР Т‘Р ВµР Р…Р С‘Р С‘ */
             }
 
             .button-group {
                 display: flex;
                 flex-direction: column;
                 align-items: stretch;
-                /* РљРЅРѕРїРєРё СЂР°СЃС‚СЏРіРёРІР°СЋС‚СЃСЏ РЅР° РІСЃСЋ С€РёСЂРёРЅСѓ РєРѕРЅС‚РµР№РЅРµСЂР° */
+                /* Р С™Р Р…Р С•Р С—Р С”Р С‘ РЎР‚Р В°РЎРѓРЎвЂљРЎРЏР С–Р С‘Р Р†Р В°РЎР‹РЎвЂљРЎРѓРЎРЏ Р Р…Р В° Р Р†РЎРѓРЎР‹ РЎв‚¬Р С‘РЎР‚Р С‘Р Р…РЎС“ Р С”Р С•Р Р…РЎвЂљР ВµР в„–Р Р…Р ВµРЎР‚Р В° */
             }
 
             .button-group {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                /* Р¦РµРЅС‚СЂРёСЂСѓРµС‚ РєРЅРѕРїРєРё РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
+                /* Р В¦Р ВµР Р…РЎвЂљРЎР‚Р С‘РЎР‚РЎС“Р ВµРЎвЂљ Р С”Р Р…Р С•Р С—Р С”Р С‘ Р С—Р С• Р С–Р С•РЎР‚Р С‘Р В·Р С•Р Р…РЎвЂљР В°Р В»Р С‘ */
             }
 
             .button-group .btn {
                 display: flex;
                 align-items: center;
-                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј РїРѕ РІРµСЂС‚РёРєР°Р»Рё */
+                /* Р В¦Р ВµР Р…РЎвЂљРЎР‚Р С‘РЎР‚РЎС“Р ВµР С Р С—Р С• Р Р†Р ВµРЎР‚РЎвЂљР С‘Р С”Р В°Р В»Р С‘ */
                 justify-content: center;
-                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
+                /* Р В¦Р ВµР Р…РЎвЂљРЎР‚Р С‘РЎР‚РЎС“Р ВµР С Р С—Р С• Р С–Р С•РЎР‚Р С‘Р В·Р С•Р Р…РЎвЂљР В°Р В»Р С‘ */
                 width: 280px !important;
-                /* РћРіСЂР°РЅРёС‡РёРІР°РµРј С€РёСЂРёРЅСѓ РєРЅРѕРїРѕРє */
+                /* Р С›Р С–РЎР‚Р В°Р Р…Р С‘РЎвЂЎР С‘Р Р†Р В°Р ВµР С РЎв‚¬Р С‘РЎР‚Р С‘Р Р…РЎС“ Р С”Р Р…Р С•Р С—Р С•Р С” */
                 height: 50px;
-                /* РЈРІРµР»РёС‡РёРІР°РµРј РІС‹СЃРѕС‚Сѓ РєРЅРѕРїРѕРє */
+                /* Р Р€Р Р†Р ВµР В»Р С‘РЎвЂЎР С‘Р Р†Р В°Р ВµР С Р Р†РЎвЂ№РЎРѓР С•РЎвЂљРЎС“ Р С”Р Р…Р С•Р С—Р С•Р С” */
                 margin-bottom: 10px;
-                /* Р”РѕР±Р°РІР»СЏРµРј Р·Р°Р·РѕСЂ РјРµР¶РґСѓ РєРЅРѕРїРєР°РјРё */
+                /* Р вЂќР С•Р В±Р В°Р Р†Р В»РЎРЏР ВµР С Р В·Р В°Р В·Р С•РЎР‚ Р СР ВµР В¶Р Т‘РЎС“ Р С”Р Р…Р С•Р С—Р С”Р В°Р СР С‘ */
                 text-align: center;
-                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј С‚РµРєСЃС‚ РІРЅСѓС‚СЂРё РєРЅРѕРїРєРё */
+                /* Р В¦Р ВµР Р…РЎвЂљРЎР‚Р С‘РЎР‚РЎС“Р ВµР С РЎвЂљР ВµР С”РЎРѓРЎвЂљ Р Р†Р Р…РЎС“РЎвЂљРЎР‚Р С‘ Р С”Р Р…Р С•Р С—Р С”Р С‘ */
                 font-size: 15px;
             }
 
             .button-group .btn:last-child {
                 margin-bottom: 0;
-                /* РЈР±РёСЂР°РµРј Р·Р°Р·РѕСЂ РїРѕСЃР»Рµ РїРѕСЃР»РµРґРЅРµР№ РєРЅРѕРїРєРё */
+                /* Р Р€Р В±Р С‘РЎР‚Р В°Р ВµР С Р В·Р В°Р В·Р С•РЎР‚ Р С—Р С•РЎРѓР В»Р Вµ Р С—Р С•РЎРѓР В»Р ВµР Т‘Р Р…Р ВµР в„– Р С”Р Р…Р С•Р С—Р С”Р С‘ */
             }
 
-            /* STEP BUTTONS вЂ” РµРґРёРЅР°СЏ РєРЅРѕРїРєР° СЃ РЅРѕРјРµСЂРѕРј СЃР»РµРІР° */
+            /* STEP BUTTONS РІР‚вЂќ Р ВµР Т‘Р С‘Р Р…Р В°РЎРЏ Р С”Р Р…Р С•Р С—Р С”Р В° РЎРѓ Р Р…Р С•Р СР ВµРЎР‚Р С•Р С РЎРѓР В»Р ВµР Р†Р В° */
             .button-group.step-buttons {
                 display: grid;
                 grid-template-columns: repeat(2, minmax(220px, 1fr));
@@ -459,7 +459,7 @@
                 grid-column: 1 / -1;
             }
 
-            /* РћР±С‰РёР№ РІРёРґ РµРґРёРЅРѕР№ РєРЅРѕРїРєРё С€Р°РіР° */
+            /* Р С›Р В±РЎвЂ°Р С‘Р в„– Р Р†Р С‘Р Т‘ Р ВµР Т‘Р С‘Р Р…Р С•Р в„– Р С”Р Р…Р С•Р С—Р С”Р С‘ РЎв‚¬Р В°Р С–Р В° */
             .step-btn {
                 display: flex;
                 align-items: stretch;
@@ -474,7 +474,7 @@
                 box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
             }
 
-            /* Р›РµРІР°СЏ С‡Р°СЃС‚СЊ СЃ РЅРѕРјРµСЂРѕРј Рё РёРєРѕРЅРєРѕР№ */
+            /* Р вЂєР ВµР Р†Р В°РЎРЏ РЎвЂЎР В°РЎРѓРЎвЂљРЎРЉ РЎРѓ Р Р…Р С•Р СР ВµРЎР‚Р С•Р С Р С‘ Р С‘Р С”Р С•Р Р…Р С”Р С•Р в„– */
             .step-btn .step-num {
                 display: flex;
                 align-items: center;
@@ -488,14 +488,14 @@
                 text-align: center;
             }
 
-            /* РРєРѕРЅРєРё вЂ” РѕРґРёРЅ СЂР°Р·РјРµСЂ РґР»СЏ РІСЃРµС… */
+            /* Р ВР С”Р С•Р Р…Р С”Р С‘ РІР‚вЂќ Р С•Р Т‘Р С‘Р Р… РЎР‚Р В°Р В·Р СР ВµРЎР‚ Р Т‘Р В»РЎРЏ Р Р†РЎРѓР ВµРЎвЂ¦ */
             .step-btn .step-num i {
                 font-size: 18px;
                 width: 18px;
                 text-align: center;
             }
 
-            /* РўРµРєСЃС‚ СЃРїСЂР°РІР° вЂ” С‡СѓС‚СЊ СѓРІРµР»РёС‡РµРЅ */
+            /* Р СћР ВµР С”РЎРѓРЎвЂљ РЎРѓР С—РЎР‚Р В°Р Р†Р В° РІР‚вЂќ РЎвЂЎРЎС“РЎвЂљРЎРЉ РЎС“Р Р†Р ВµР В»Р С‘РЎвЂЎР ВµР Р… */
             .step-btn .step-label {
                 flex: 1 1 auto;
                 display: flex;
@@ -508,7 +508,7 @@
                 line-height: 1.1;
             }
 
-            /* Р¦РІРµС‚РѕРІС‹Рµ РІР°СЂРёР°РЅС‚С‹ (СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ РїСЂРµР¶РЅРёРј С€Р°РіР°Рј) */
+            /* Р В¦Р Р†Р ВµРЎвЂљР С•Р Р†РЎвЂ№Р Вµ Р Р†Р В°РЎР‚Р С‘Р В°Р Р…РЎвЂљРЎвЂ№ (РЎРѓР С•Р С•РЎвЂљР Р†Р ВµРЎвЂљРЎРѓРЎвЂљР Р†РЎС“РЎР‹РЎвЂљ Р С—РЎР‚Р ВµР В¶Р Р…Р С‘Р С РЎв‚¬Р В°Р С–Р В°Р С) */
             .step-btn.step-1 {
                 background-color: var(--primary-color);
                 color: var(--button-text-color);
@@ -516,7 +516,7 @@
             }
             .step-btn.step-2 {
                 background-color: #ff5010;
-                color: #121212; /* С‚С‘РјРЅС‹Р№ С‚РµРєСЃС‚ РЅР° РѕСЂР°РЅР¶РµРІРѕРј РєР°Рє СЂР°РЅСЊС€Рµ */
+                color: #121212; /* РЎвЂљРЎвЂР СР Р…РЎвЂ№Р в„– РЎвЂљР ВµР С”РЎРѓРЎвЂљ Р Р…Р В° Р С•РЎР‚Р В°Р Р…Р В¶Р ВµР Р†Р С•Р С Р С”Р В°Р С” РЎР‚Р В°Р Р…РЎРЉРЎв‚¬Р Вµ */
                 border: 1px solid #ff5010;
             }
             .step-btn.step-3 {
@@ -555,7 +555,7 @@
                 border-color: #0dcaf0;
             }
 
-            /* Hover/Active вЂ” Р±РµР· В«РїСЂС‹Р¶РєР°В» С€РёСЂРёРЅС‹/РІС‹СЃРѕС‚С‹ */
+            /* Hover/Active РІР‚вЂќ Р В±Р ВµР В· Р’В«Р С—РЎР‚РЎвЂ№Р В¶Р С”Р В°Р’В» РЎв‚¬Р С‘РЎР‚Р С‘Р Р…РЎвЂ№/Р Р†РЎвЂ№РЎРѓР С•РЎвЂљРЎвЂ№ */
             .step-btn:hover,
             .step-btn:focus {
                 text-decoration: none;
@@ -567,12 +567,12 @@
                 transform: translateY(1px);
             }
 
-            /* РўС‘РјРЅР°СЏ С‚РµРјР°: Р»РёРЅРёСЏ-СЂР°Р·РґРµР»РёС‚РµР»СЊ С‡СѓС‚СЊ РїСЂРѕР·СЂР°С‡РЅРµРµ */
+            /* Р СћРЎвЂР СР Р…Р В°РЎРЏ РЎвЂљР ВµР СР В°: Р В»Р С‘Р Р…Р С‘РЎРЏ-РЎР‚Р В°Р В·Р Т‘Р ВµР В»Р С‘РЎвЂљР ВµР В»РЎРЉ РЎвЂЎРЎС“РЎвЂљРЎРЉ Р С—РЎР‚Р С•Р В·РЎР‚Р В°РЎвЂЎР Р…Р ВµР Вµ */
             [data-theme="dark"] .step-btn .step-num {
                 border-right-color: rgba(255,255,255,.2);
             }
 
-            /* РђРґР°РїС‚РёРІ: С‡СѓС‚СЊ РЅРёР¶Рµ РІС‹СЃРѕС‚Р° Рё С€РёСЂРёРЅР° */
+            /* Р С’Р Т‘Р В°Р С—РЎвЂљР С‘Р Р†: РЎвЂЎРЎС“РЎвЂљРЎРЉ Р Р…Р С‘Р В¶Р Вµ Р Р†РЎвЂ№РЎРѓР С•РЎвЂљР В° Р С‘ РЎв‚¬Р С‘РЎР‚Р С‘Р Р…Р В° */
             @media (max-width: 768px) {
                 .button-group.step-buttons {
                     grid-template-columns: 1fr;
@@ -732,7 +732,7 @@
             .no-pointer-events {
                 pointer-events: none;
                 opacity: 0.6;
-                /* РќРµРѕР±СЏР·Р°С‚РµР»СЊРЅРѕ: СЃРґРµР»Р°РµС‚ РєРЅРѕРїРєСѓ РІРёР·СѓР°Р»СЊРЅРѕ РјРµРЅРµРµ СЏСЂРєРѕР№ */
+                /* Р СњР ВµР С•Р В±РЎРЏР В·Р В°РЎвЂљР ВµР В»РЎРЉР Р…Р С•: РЎРѓР Т‘Р ВµР В»Р В°Р ВµРЎвЂљ Р С”Р Р…Р С•Р С—Р С”РЎС“ Р Р†Р С‘Р В·РЎС“Р В°Р В»РЎРЉР Р…Р С• Р СР ВµР Р…Р ВµР Вµ РЎРЏРЎР‚Р С”Р С•Р в„– */
             }
 
             .support-btn {
@@ -804,18 +804,18 @@
                 color: #0062cc; !important;
             }
 
-            /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
+            /* РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р…РїС—Р… РїС—Р…РїС—Р…РїС—Р…РїС—Р… */
             .modal-backdrop {
                 background-color: rgba(0, 0, 0, 0.9) !important;
             }
 
-            /* Р‘Р°Р·РѕРІС‹Р№ СЃС‚РёР»СЊ РјРѕРґР°Р»СЊРЅРѕРіРѕ РѕРєРЅР° */
+            /* Р вЂР В°Р В·Р С•Р Р†РЎвЂ№Р в„– РЎРѓРЎвЂљР С‘Р В»РЎРЉ Р СР С•Р Т‘Р В°Р В»РЎРЉР Р…Р С•Р С–Р С• Р С•Р С”Р Р…Р В° */
             .modal-content {
                 border-radius: 12px;
                 transition: background-color 0.3s, color 0.3s;
             }
 
-            /* РўРµРјРЅР°СЏ С‚РµРјР° */
+            /* Р СћР ВµР СР Р…Р В°РЎРЏ РЎвЂљР ВµР СР В° */
             [data-theme="dark"] .modal-content {
                 background-color: #1E1E1E;
                 color: #E0E0E0;
@@ -833,7 +833,7 @@
                 filter: invert(1);
             }
 
-            /* РЈР±РёСЂР°РµРј Р»РёРЅРёСЋ РІ header Рё footer РјРѕРґР°Р»СЊРЅРѕРіРѕ РѕРєРЅР° */
+            /* Р Р€Р В±Р С‘РЎР‚Р В°Р ВµР С Р В»Р С‘Р Р…Р С‘РЎР‹ Р Р† header Р С‘ footer Р СР С•Р Т‘Р В°Р В»РЎРЉР Р…Р С•Р С–Р С• Р С•Р С”Р Р…Р В° */
             .modal-header,
             .modal-footer {
                 border: none !important;
@@ -1149,9 +1149,9 @@
             </section>
             <!--v-if-->
             <div class="app-inst">
-                <h4 class="app-inst_header">РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android</h4>
-                <p class="app-inst_text"> гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ <span style="font-weight: 600;">HAPP</span><br> гѓ»
-                    РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В» </p>
+                <h4 class="app-inst_header">Инструкция для Android</h4>
+                <p class="app-inst_text">• Установите приложение <span style="font-weight: 600;">HAPP</span><br>• Нажмите кнопку «Добавить ключ»</p>
+
             </div>
             <!--v-if-->
             <!--v-if-->
@@ -1181,27 +1181,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ" data-bs-original-title="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 Рё РЅРѕРІРµРµ <br>
+                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 и новее <br>
                             <i class="fa-solid fa-tv card_requirements_icon"></i> Apple TV <br>
                         </p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="<?php echo htmlspecialchars($iosStoreUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
-                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ</span>
+                                <span class="step-label">Установить</span>
                             </a>
                             <a class="step-btn step-2 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
@@ -1211,27 +1211,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ" data-bs-original-title="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 Рё РЅРѕРІРµРµ <br>
-                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> РўРѕР»СЊРєРѕ РґР»СЏ ARM-С‡РёРїРѕРІ <br>
+                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 и новее <br>
+                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> Только для ARM-чипов <br>
                         </p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1 step-primary" href="<?php echo htmlspecialchars($macosStoreUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-apple"></i></span>
-                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ .dmg</span>
+                                <span class="step-label">Открыть в App Store</span>
                             </a>
                             <a class="step-btn step-2 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
@@ -1242,27 +1242,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"><i class="fa-solid fa-bolt"></i></span>
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение"><i class="fa-solid fa-bolt"></i></span>
                         </div>
                         <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
-                        <p class="app-card_requirements"><i class="fa-solid fa-mobile-screen-button card_requirements_icon"></i> Android 8.0 Рё РЅРѕРІРµРµ<br></p>
+                        <p class="app-card_requirements"><i class="fa-solid fa-mobile-screen-button card_requirements_icon"></i> Android 8.0 и новее<br></p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
-                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ [GPlay]</span>
+                                <span class="step-label">Установить [GPlay]</span>
                             </a>
                             <a class="step-btn step-2 step-primary" href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa fa-download"></i></span>
-                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ [.apk]</span>
+                                <span class="step-label">Скачать [.apk]</span>
                             </a>
                             <a class="step-btn step-3 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-4 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
@@ -1273,26 +1273,26 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
+                                aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
                         <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-laptop card_requirements_icon"></i>
-                            Windows 10 Рё РЅРѕРІРµРµ <br></p>
+                            Windows 10 и новее <br></p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['windows'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">1 <i class="fa-brands fa-windows"></i></span>
-                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ</span>
+                                <span class="step-label">Установить</span>
                             </a>
                             <a class="step-btn step-2" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Добавить ключ</span>
                             </a>
                             <a class="step-btn step-3" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
+                                <span class="step-label">Скопировать ключ</span>
                             </a>
                         </div>
                     </div>
@@ -1303,26 +1303,26 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
+                                aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
                         <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
                         <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-tv card_requirements_icon"></i> Android
-                            TV 9 Рё РЅРѕРІРµРµ <br></p>
+                            TV 9 и новее <br></p>
                         <div class="button-group step-buttons">
                             <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
-                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ [GPlay]</span>
+                                <span class="step-label">Установить [GPlay]</span>
                             </a>
                             <a class="step-btn step-2 step-primary" href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa fa-download"></i></span>
-                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ [.apk]</span>
+                                <span class="step-label">Скачать [.apk]</span>
                             </a>
                             <a class="step-btn step-3 step-orange" href="#" @click.prevent="openInstructionOverlay">
                                 <span class="step-num">3 <i class="fa-solid fa-circle-info"></i></span>
-                                <span class="step-label">РРЅСЃС‚СЂСѓРєС†РёСЏ</span>
+                                <span class="step-label">Инструкция</span>
                             </a>
                         </div>
                     </div>
@@ -1331,32 +1331,32 @@
             <!--v-if-->
             <!-- Copy Key Button -->
             <!-- Copy Notification -->
-            <div class="support-notification"><b><i class="fa-regular fa-check me-1"></i> РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ </b><br>Р•РіРѕ
-                РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РІ <b>Р»СЋР±С‹С…</b> РїСЂРёР»РѕР¶РµРЅРёСЏС… СЃ РїРѕРґРґРµСЂР¶РєРѕР№ <b>VLESS / Reality</b></div>
+            <div class="support-notification"><b><i class="fa-regular fa-check me-1"></i> Ключ скопирован </b><br>Его
+                можно использовать в <b>любых</b> приложениях с поддержкой <b>VLESS / Reality</b></div>
                     </div>
                     <div class="page-slide instruction-page" ref="instructionPage" :aria-hidden="!showInstructionOverlay" role="dialog" aria-modal="true" tabindex="-1">
                         <div class="instruction-inner">
                             <div class="overlay-header">
                                 <button class="back-button" type="button" @click="closeInstructionOverlay">
                                     <i class="fa-solid fa-arrow-left"></i>
-                                    <span>РќР°Р·Р°Рґ</span>
+                                    <span>Назад</span>
                                 </button>
                                     <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>" class="overlay-logo" alt="<?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?>">
                             </div>
                             <div class="tv-instruction-card">
-                                <h1>Android TV вЂ” <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h1>
-                                <p>РЎР»РµРґСѓР№С‚Рµ СЌС‚РёРј С€Р°РіР°Рј, С‡С‚РѕР±С‹ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ Рё Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ РєР»СЋС‡ РїРѕРґРєР»СЋС‡РµРЅРёСЏ РЅР° Android TV.</p>
+                                <h1>Android TV — <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h1>
+                                <p>Следуйте этим шагам, чтобы установить приложение и активировать ключ подключения на Android TV.</p>
                                 <ol class="tv-instruction-list">
-                                    <li>РћС‚РєСЂРѕР№С‚Рµ <strong>Google Play</strong> РЅР° С‚РµР»РµРІРёР·РѕСЂРµ Рё СѓСЃС‚Р°РЅРѕРІРёС‚Рµ <a href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener"><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></a>. Р•СЃР»Рё РјР°СЂРєРµС‚ РЅРµРґРѕСЃС‚СѓРїРµРЅ, СЃРєР°С‡Р°Р№С‚Рµ <a href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">APK-С„Р°Р№Р»</a> Рё СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РµРіРѕ РІСЂСѓС‡РЅСѓСЋ СЃ USB-РЅР°РєРѕРїРёС‚РµР»СЏ.</li>
-                                    <li>Р—Р°РїСѓСЃС‚РёС‚Рµ <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?>, РґР°Р№С‚Рµ РїСЂРёР»РѕР¶РµРЅРёСЋ РІСЃРµ Р·Р°РїСЂРѕС€РµРЅРЅС‹Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ Рё Р·Р°РІРµСЂС€РёС‚Рµ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅСѓСЋ РЅР°СЃС‚СЂРѕР№РєСѓ.</li>
-                                    <li>Р”РѕР±Р°РІСЊС‚Рµ РєР»СЋС‡ РІ РїСЂРёР»РѕР¶РµРЅРёСЏ <strong>СЃР»РµРґСѓСЏ РёРЅСЃС‚СЂСѓРєС†РёРё РЅР° СЌРєСЂР°РЅРµ С‚РµР»РµРІРёР·РѕСЂР°.</strong></li>
+                                    <li>Откройте <strong>Google Play</strong> на телевизоре и установите <a href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener"><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></a>. Если маркет недоступен, скачайте <a href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">APK-файл</a> и установите его вручную с USB-накопителя.</li>
+                                    <li>Запустите <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?>, дайте приложению все запрошенные разрешения и завершите первоначальную настройку.</li>
+                                    <li>Добавьте ключ в приложении <strong>следуя инструкции на экране телевизора.</strong></li>
                                 </ol>
                                 <div class="tv-instruction-note">
-                                    Р•СЃР»Рё СЃС‚РѕР»РєРЅС‘С‚РµСЃСЊ СЃРѕ СЃР»РѕР¶РЅРѕСЃС‚СЏРјРё РїСЂРё СѓСЃС‚Р°РЅРѕРІРєРµ РёР· APK, РІРєР»СЋС‡РёС‚Рµ В«РќРµРёР·РІРµСЃС‚РЅС‹Рµ РёСЃС‚РѕС‡РЅРёРєРёВ» РІ РЅР°СЃС‚СЂРѕР№РєР°С… Android TV Рё РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ.<br><br>РР»Рё РѕР±СЂР°С‚РёС‚РµСЃСЊ Рє РЅР°Рј <a href="https://t.me/prsta_helpbot" target="_blank" rel="noopener"><strong>РІ РїРѕРґРґРµСЂР¶РєСѓ</strong></a> вќ¤пёЏ
+                                    Если столкнётесь со сложностями при установке из APK, включите «Неизвестные источники» в настройках Android TV и повторите попытку.<br><br>Или обратитесь к нам <a href="https://t.me/prsta_helpbot" target="_blank" rel="noopener"><strong>в поддержку</strong></a> ❤️
                                 </div>
                                 <button class="instruction-back-button" type="button" @click="closeInstructionOverlay">
                                     <i class="fa-solid fa-arrow-left"></i>
-                                    <span>РќР°Р·Р°Рґ</span>
+                                    <span>Назад</span>
                                 </button>
                             </div>
                         </div>
@@ -1371,9 +1371,9 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 const key = urlParams.get('key') || '';
                 navigator.clipboard.writeText(key).then(() => {
-                    alert("РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ!");
+                    alert("Ключ скопирован!");
                 }).catch(err => {
-                    console.error("РћС€РёР±РєР° РїСЂРё РєРѕРїРёСЂРѕРІР°РЅРёРё:", err);
+                    console.error("Ошибка при копировании:", err);
                 });
             }
         </script>
@@ -1383,8 +1383,8 @@
         return {
             theme: this.detectInitialTheme(),
             selectedOS: "",
-            selectedOSText: "Android", // РўРµРєСЃС‚ РєРЅРѕРїРєРё
-            selectedOSIcon: "fa-brands fa-android", // РРєРѕРЅРєР° РєРЅРѕРїРєРё // РћРїСЂРµРґРµР»СЏРµРј С‚РµРјСѓ СЃСЂР°Р·Сѓ
+            selectedOSText: "Android", // Текст кнопки
+            selectedOSIcon: "fa-brands fa-android", // Иконка кнопки // Определяем тему сразу
             showSupportNotification: false,
             showInstructionOverlay: false,
             previousScrollTop: 0,
@@ -1405,7 +1405,7 @@
             selectedOS: "",
             showNotification: false,
             buttonState: {
-                text: "РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡",
+                text: "Скопировать ключ",
                 icon: "fa-solid fa-copy",
                 disabled: false,
                 noPointerEvents: false,
@@ -1420,21 +1420,21 @@
             const key = urlParams.get('key') || '';
             navigator.clipboard.writeText(key).then(() => {
                 this.buttonState = {
-                    text: "РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ",
+                    text: "Ключ скопирован",
                     icon: "fa-solid fa-check",
                     disabled: true,
                     noPointerEvents: true,
                 };
                 setTimeout(() => {
                     this.buttonState = {
-                        text: "РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡",
+                        text: "Скопировать ключ",
                         icon: "fa-solid fa-copy",
                         disabled: false,
                         noPointerEvents: false,
                     };
                 }, 5000);
             }).catch(err => {
-                console.error('РћС€РёР±РєР° РїСЂРё РєРѕРїРёСЂРѕРІР°РЅРёРё РІ Р±СѓС„РµСЂ РѕР±РјРµРЅР°: ', err);
+                console.error('Ошибка при копировании в буфер обмена: ', err);
             })
             },
             openInstructionOverlay() {
@@ -1469,33 +1469,33 @@
             switch (this.selectedOS) {
                 case "iOS":
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ iOS",
-                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
+                        header: "Инструкция для iOS",
+                        text: "• Установите приложение HAPP<br>• Нажмите кнопку «Добавить ключ»"
                     };
                 case "macOS":
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ macOS",
-                        text: "гѓ» РЎРєР°С‡Р°Р№С‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РћС‚РєСЂРѕР№С‚Рµ С„Р°Р№Р» .dmg<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
+                        header: "Инструкция для macOS",
+                        text: "• Откройте приложение HAPP в App Store<br>• Установите его<br>• Нажмите кнопку «Добавить ключ»"
                     };
                 case "Android":
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android",
-                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
+                        header: "Инструкция для Android",
+                        text: "• Установите приложение HAPP<br>• Нажмите кнопку «Добавить ключ»"
                     };
                 case "Windows":
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Windows",
-                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
+                        header: "Инструкция для Windows",
+                        text: "• Установите приложение HAPP<br>• Нажмите кнопку «Добавить ключ»"
                     };
                 case "Android TV":
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android TV",
-                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» Р—Р°РїСѓСЃС‚РёС‚Рµ РµРіРѕ<br>гѓ» РЎР»РµРґСѓР№С‚Рµ РёРЅСЃС‚СЂСѓРєС†РёРё РЅР° СЌРєСЂР°РЅРµ"
+                        header: "Инструкция для Android TV",
+                        text: "• Установите приложение HAPP<br>• Запустите его<br>• Следуйте инструкции на экране"
                     };
                 default:
                     return {
-                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ",
-                        text: "Р’С‹Р±РµСЂРёС‚Рµ РІР°С€Сѓ РѕРїРµСЂР°С†РёРѕРЅРЅСѓСЋ СЃРёСЃС‚РµРјСѓ РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅСЃС‚СЂСѓРєС†РёРё."
+                        header: "Инструкция",
+                        text: "Выберите вашу операционную систему для получения инструкции."
                     };
             }
         },
@@ -1594,10 +1594,10 @@
                         this.showCopyNotification = false;
                     }, 8000);
                 }).catch(err => {
-                    console.error("РћС€РёР±РєР° РєРѕРїРёСЂРѕРІР°РЅРёСЏ:", err);
+                    console.error("Ошибка копирования:", err);
                 });
             } else {
-                alert('РљР»СЋС‡ РЅРµ РЅР°Р№РґРµРЅ РІ СЃСЃС‹Р»РєРµ!');
+                alert("Ключ не найден в ссылке!");
             }
         },
         detectOS() {
@@ -1607,7 +1607,7 @@
     if (userAgent.includes("mac")) return "macOS";
     if (userAgent.includes("android")) return "Android";
     if (userAgent.includes("tv")) return "Android TV";
-    return "Р’С‹Р±РµСЂРёС‚Рµ РћРЎ"; // Р•СЃР»Рё РћРЎ РЅРµ РЅР°Р№РґРµРЅР°
+    return "Выберите ОС"; // Если ОС не найдена
 }
 ,
         setOS(os) {
@@ -1615,7 +1615,7 @@
     this.updateActiveSection();
     this.updateInstructionText();
 
-    // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ Рё РёРєРѕРЅРєСѓ РґР»СЏ РєРЅРѕРїРєРё РјРµРЅСЋ
+    // Обновляем текст и иконку для кнопки меню
     switch (os) {
         case "iOS":
             this.selectedOSText = "iOS";
@@ -1669,13 +1669,13 @@
     this.applyTheme(this.theme);
     this.initializeSubscriptionUrl();
 
-    // Р’С‹Р±РёСЂР°РµРј РѕРїРµСЂР°С†РёРѕРЅРЅСѓСЋ СЃРёСЃС‚РµРјСѓ СЃСЂР°Р·Сѓ РїСЂРё Р·Р°РіСЂСѓР·РєРµ
+    // Выбираем операционную систему сразу при загрузке
     this.setOS(this.detectOS());
 
-    // РћР±РЅРѕРІР»СЏРµРј Р°РєС‚РёРІРЅСѓСЋ СЃРµРєС†РёСЋ РЅР° РѕСЃРЅРѕРІРµ РћРЎ
+    // Обновляем активную секцию на основе ОС
     this.updateActiveSection();
 
-    // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ РёРЅСЃС‚СЂСѓРєС†РёРё
+    // Обновляем текст инструкции
     this.updateInstructionText();
 
     this.setupTelegramThemeListener();
