@@ -185,36 +185,36 @@
                 line-height: 1.45;
             }
 
-            /* Адаптируем заголовок и текст на экранах ≤768px (планшеты и мобильные) */
+            /* РђРґР°РїС‚РёСЂСѓРµРј Р·Р°РіРѕР»РѕРІРѕРє Рё С‚РµРєСЃС‚ РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
             @media (max-width: 768px) {
                 .app-inst_header {
                     font-size: 1.2rem;
-                    /* Уменьшаем размер заголовка */
-                    /* Уменьшаем отступ слева */
+                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ Р·Р°РіРѕР»РѕРІРєР° */
+                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
                     margin-bottom: 8px;
-                    /* Уменьшаем отступ снизу */
+                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃРЅРёР·Сѓ */
                 }
 
                 .app-inst_text {
                     font-size: 0.95rem;
-                    /* Уменьшаем размер текста */
-                    /* Уменьшаем отступ слева */
+                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
+                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
                     margin-bottom: 4px;
-                    /* Уменьшаем отступ снизу */
+                    /* РЈРјРµРЅСЊС€Р°РµРј РѕС‚СЃС‚СѓРї СЃРЅРёР·Сѓ */
                 }
             }
 
-            /* Еще меньший размер на экранах ≤480px (очень маленькие экраны) */
+            /* Р•С‰Рµ РјРµРЅСЊС€РёР№ СЂР°Р·РјРµСЂ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
             @media (max-width: 480px) {
                 .app-inst_header {
                     font-size: 1.2rem;
-                    /* Еще меньше заголовок */
-                    /* Минимальный отступ слева */
+                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ Р·Р°РіРѕР»РѕРІРѕРє */
+                    /* РњРёРЅРёРјР°Р»СЊРЅС‹Р№ РѕС‚СЃС‚СѓРї СЃР»РµРІР° */
                 }
 
                 .app-inst_text {
                     font-size: 1rem;
-                    /* Еще меньше текст */
+                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ С‚РµРєСЃС‚ */
                 }
             }
 
@@ -237,21 +237,21 @@
                 box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
             }
 
-            /* Уменьшаем изображение на планшетах и мобильных */
+            /* РЈРјРµРЅСЊС€Р°РµРј РёР·РѕР±СЂР°Р¶РµРЅРёРµ РЅР° РїР»Р°РЅС€РµС‚Р°С… Рё РјРѕР±РёР»СЊРЅС‹С… */
             @media (max-width: 768px) {
                 .app-card img {
                     max-width: 150px;
-                    /* Ограничиваем ширину */
+                    /* РћРіСЂР°РЅРёС‡РёРІР°РµРј С€РёСЂРёРЅСѓ */
                     height: auto;
-                    /* Сохраняем пропорции */
+                    /* РЎРѕС…СЂР°РЅСЏРµРј РїСЂРѕРїРѕСЂС†РёРё */
                 }
             }
 
-            /* Для очень маленьких экранов (меньше 480px) */
+            /* Р”Р»СЏ РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёС… СЌРєСЂР°РЅРѕРІ (РјРµРЅСЊС€Рµ 480px) */
             @media (max-width: 480px) {
                 .app-card img {
                     max-width: 120px;
-                    /* Еще меньше */
+                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ */
                 }
             }
 
@@ -275,19 +275,19 @@
                 font-weight: 600;
             }
 
-            /* Уменьшаем размер h3 на экранах ≤768px (планшеты и мобильные) */
+            /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ h3 РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
             @media (max-width: 768px) {
                 .app-card h3 {
                     font-size: 1.8rem;
-                    /* Стандартный размер в Bootstrap - 2rem, уменьшаем */
+                    /* РЎС‚Р°РЅРґР°СЂС‚РЅС‹Р№ СЂР°Р·РјРµСЂ РІ Bootstrap - 2rem, СѓРјРµРЅСЊС€Р°РµРј */
                 }
             }
 
-            /* Еще меньше на экранах ≤480px (очень маленькие экраны) */
+            /* Р•С‰Рµ РјРµРЅСЊС€Рµ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
             @media (max-width: 480px) {
                 .app-card h3 {
                     font-size: 1.8rem;
-                    /* Еще меньше */
+                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ */
                 }
             }
 
@@ -310,29 +310,29 @@
                 font-weight: 300;
                 padding: 10px;
                 text-align: center;
-                /* Выравнивает текст по центру */
+                /* Р’С‹СЂР°РІРЅРёРІР°РµС‚ С‚РµРєСЃС‚ РїРѕ С†РµРЅС‚СЂСѓ */
                 word-wrap: break-word;
-                /* Перенос текста, если он превышает ширину */
+                /* РџРµСЂРµРЅРѕСЃ С‚РµРєСЃС‚Р°, РµСЃР»Рё РѕРЅ РїСЂРµРІС‹С€Р°РµС‚ С€РёСЂРёРЅСѓ */
                 margin: 0 auto;
             }
 
-            /* Уменьшаем текст и отступы на экранах ≤768px (планшеты и мобильные) */
+            /* РЈРјРµРЅСЊС€Р°РµРј С‚РµРєСЃС‚ Рё РѕС‚СЃС‚СѓРїС‹ РЅР° СЌРєСЂР°РЅР°С… в‰¤768px (РїР»Р°РЅС€РµС‚С‹ Рё РјРѕР±РёР»СЊРЅС‹Рµ) */
             @media (max-width: 768px) {
                 .app-card_requirements {
                     font-size: 0.9rem;
-                    /* Уменьшаем размер текста */
+                    /* РЈРјРµРЅСЊС€Р°РµРј СЂР°Р·РјРµСЂ С‚РµРєСЃС‚Р° */
                     padding: 8px;
-                    /* Уменьшаем внутренний отступ */
+                    /* РЈРјРµРЅСЊС€Р°РµРј РІРЅСѓС‚СЂРµРЅРЅРёР№ РѕС‚СЃС‚СѓРї */
                 }
             }
 
-            /* Еще меньше на экранах ≤480px (очень маленькие экраны) */
+            /* Р•С‰Рµ РјРµРЅСЊС€Рµ РЅР° СЌРєСЂР°РЅР°С… в‰¤480px (РѕС‡РµРЅСЊ РјР°Р»РµРЅСЊРєРёРµ СЌРєСЂР°РЅС‹) */
             @media (max-width: 480px) {
                 .app-card_requirements {
                     font-size: 0.8rem;
-                    /* Еще меньше текст */
+                    /* Р•С‰Рµ РјРµРЅСЊС€Рµ С‚РµРєСЃС‚ */
                     padding: 6px;
-                    /* Компактный отступ */
+                    /* РљРѕРјРїР°РєС‚РЅС‹Р№ РѕС‚СЃС‚СѓРї */
                 }
             }
 
@@ -386,66 +386,66 @@
 
             .btn-v2box-tutorial {
                 display: inline-block;
-                /* Чтобы рамка корректно обтекала текст */
+                /* Р§С‚РѕР±С‹ СЂР°РјРєР° РєРѕСЂСЂРµРєС‚РЅРѕ РѕР±С‚РµРєР°Р»Р° С‚РµРєСЃС‚ */
                 padding: 5px 10px;
-                /* Добавим внутренний отступ */
+                /* Р”РѕР±Р°РІРёРј РІРЅСѓС‚СЂРµРЅРЅРёР№ РѕС‚СЃС‚СѓРї */
                 text-decoration: none;
-                /* Убираем стандартное подчеркивание */
+                /* РЈР±РёСЂР°РµРј СЃС‚Р°РЅРґР°СЂС‚РЅРѕРµ РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ */
                 border: 1px solid #000;
-                /* ����� 1px ������� ����� */
+                /* пїЅпїЅпїЅпїЅпїЅ 1px пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
                 border-radius: 30px;
-                /* Скругленные углы */
+                /* РЎРєСЂСѓРіР»РµРЅРЅС‹Рµ СѓРіР»С‹ */
                 border-color: var(--secondary-color);
                 color: var(--secondary-color);
-                /* Цвет текста */
+                /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° */
                 transition: 0.3s;
-                /* Эффект при наведении */
+                /* Р­С„С„РµРєС‚ РїСЂРё РЅР°РІРµРґРµРЅРёРё */
             }
 
             .btn-v2box-tutorial:hover {
                 background-color: #f0f0f0;
-                /* Цвет фона при наведении */
+                /* Р¦РІРµС‚ С„РѕРЅР° РїСЂРё РЅР°РІРµРґРµРЅРёРё */
                 color: #121212;
-                /* Цвет текста при наведении */
+                /* Р¦РІРµС‚ С‚РµРєСЃС‚Р° РїСЂРё РЅР°РІРµРґРµРЅРёРё */
             }
 
             .button-group {
                 display: flex;
                 flex-direction: column;
                 align-items: stretch;
-                /* Кнопки растягиваются на всю ширину контейнера */
+                /* РљРЅРѕРїРєРё СЂР°СЃС‚СЏРіРёРІР°СЋС‚СЃСЏ РЅР° РІСЃСЋ С€РёСЂРёРЅСѓ РєРѕРЅС‚РµР№РЅРµСЂР° */
             }
 
             .button-group {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                /* Центрирует кнопки по горизонтали */
+                /* Р¦РµРЅС‚СЂРёСЂСѓРµС‚ РєРЅРѕРїРєРё РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
             }
 
             .button-group .btn {
                 display: flex;
                 align-items: center;
-                /* Центрируем по вертикали */
+                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј РїРѕ РІРµСЂС‚РёРєР°Р»Рё */
                 justify-content: center;
-                /* Центрируем по горизонтали */
+                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё */
                 width: 280px !important;
-                /* Ограничиваем ширину кнопок */
+                /* РћРіСЂР°РЅРёС‡РёРІР°РµРј С€РёСЂРёРЅСѓ РєРЅРѕРїРѕРє */
                 height: 50px;
-                /* Увеличиваем высоту кнопок */
+                /* РЈРІРµР»РёС‡РёРІР°РµРј РІС‹СЃРѕС‚Сѓ РєРЅРѕРїРѕРє */
                 margin-bottom: 10px;
-                /* Добавляем зазор между кнопками */
+                /* Р”РѕР±Р°РІР»СЏРµРј Р·Р°Р·РѕСЂ РјРµР¶РґСѓ РєРЅРѕРїРєР°РјРё */
                 text-align: center;
-                /* Центрируем текст внутри кнопки */
+                /* Р¦РµРЅС‚СЂРёСЂСѓРµРј С‚РµРєСЃС‚ РІРЅСѓС‚СЂРё РєРЅРѕРїРєРё */
                 font-size: 15px;
             }
 
             .button-group .btn:last-child {
                 margin-bottom: 0;
-                /* Убираем зазор после последней кнопки */
+                /* РЈР±РёСЂР°РµРј Р·Р°Р·РѕСЂ РїРѕСЃР»Рµ РїРѕСЃР»РµРґРЅРµР№ РєРЅРѕРїРєРё */
             }
 
-            /* STEP BUTTONS — единая кнопка с номером слева */
+            /* STEP BUTTONS вЂ” РµРґРёРЅР°СЏ РєРЅРѕРїРєР° СЃ РЅРѕРјРµСЂРѕРј СЃР»РµРІР° */
             .button-group.step-buttons {
                 display: grid;
                 grid-template-columns: repeat(2, minmax(220px, 1fr));
@@ -459,7 +459,7 @@
                 grid-column: 1 / -1;
             }
 
-            /* Общий вид единой кнопки шага */
+            /* РћР±С‰РёР№ РІРёРґ РµРґРёРЅРѕР№ РєРЅРѕРїРєРё С€Р°РіР° */
             .step-btn {
                 display: flex;
                 align-items: stretch;
@@ -474,7 +474,7 @@
                 box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
             }
 
-            /* Левая часть с номером и иконкой */
+            /* Р›РµРІР°СЏ С‡Р°СЃС‚СЊ СЃ РЅРѕРјРµСЂРѕРј Рё РёРєРѕРЅРєРѕР№ */
             .step-btn .step-num {
                 display: flex;
                 align-items: center;
@@ -488,14 +488,14 @@
                 text-align: center;
             }
 
-            /* Иконки — один размер для всех */
+            /* РРєРѕРЅРєРё вЂ” РѕРґРёРЅ СЂР°Р·РјРµСЂ РґР»СЏ РІСЃРµС… */
             .step-btn .step-num i {
                 font-size: 18px;
                 width: 18px;
                 text-align: center;
             }
 
-            /* Текст справа — чуть увеличен */
+            /* РўРµРєСЃС‚ СЃРїСЂР°РІР° вЂ” С‡СѓС‚СЊ СѓРІРµР»РёС‡РµРЅ */
             .step-btn .step-label {
                 flex: 1 1 auto;
                 display: flex;
@@ -508,7 +508,7 @@
                 line-height: 1.1;
             }
 
-            /* Цветовые варианты (соответствуют прежним шагам) */
+            /* Р¦РІРµС‚РѕРІС‹Рµ РІР°СЂРёР°РЅС‚С‹ (СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‚ РїСЂРµР¶РЅРёРј С€Р°РіР°Рј) */
             .step-btn.step-1 {
                 background-color: var(--primary-color);
                 color: var(--button-text-color);
@@ -516,7 +516,7 @@
             }
             .step-btn.step-2 {
                 background-color: #ff5010;
-                color: #121212; /* тёмный текст на оранжевом как раньше */
+                color: #121212; /* С‚С‘РјРЅС‹Р№ С‚РµРєСЃС‚ РЅР° РѕСЂР°РЅР¶РµРІРѕРј РєР°Рє СЂР°РЅСЊС€Рµ */
                 border: 1px solid #ff5010;
             }
             .step-btn.step-3 {
@@ -555,7 +555,7 @@
                 border-color: #0dcaf0;
             }
 
-            /* Hover/Active — без «прыжка» ширины/высоты */
+            /* Hover/Active вЂ” Р±РµР· В«РїСЂС‹Р¶РєР°В» С€РёСЂРёРЅС‹/РІС‹СЃРѕС‚С‹ */
             .step-btn:hover,
             .step-btn:focus {
                 text-decoration: none;
@@ -567,12 +567,12 @@
                 transform: translateY(1px);
             }
 
-            /* Тёмная тема: линия-разделитель чуть прозрачнее */
+            /* РўС‘РјРЅР°СЏ С‚РµРјР°: Р»РёРЅРёСЏ-СЂР°Р·РґРµР»РёС‚РµР»СЊ С‡СѓС‚СЊ РїСЂРѕР·СЂР°С‡РЅРµРµ */
             [data-theme="dark"] .step-btn .step-num {
                 border-right-color: rgba(255,255,255,.2);
             }
 
-            /* Адаптив: чуть ниже высота и ширина */
+            /* РђРґР°РїС‚РёРІ: С‡СѓС‚СЊ РЅРёР¶Рµ РІС‹СЃРѕС‚Р° Рё С€РёСЂРёРЅР° */
             @media (max-width: 768px) {
                 .button-group.step-buttons {
                     grid-template-columns: 1fr;
@@ -732,7 +732,7 @@
             .no-pointer-events {
                 pointer-events: none;
                 opacity: 0.6;
-                /* Необязательно: сделает кнопку визуально менее яркой */
+                /* РќРµРѕР±СЏР·Р°С‚РµР»СЊРЅРѕ: СЃРґРµР»Р°РµС‚ РєРЅРѕРїРєСѓ РІРёР·СѓР°Р»СЊРЅРѕ РјРµРЅРµРµ СЏСЂРєРѕР№ */
             }
 
             .support-btn {
@@ -804,18 +804,18 @@
                 color: #0062cc; !important;
             }
 
-            /* �������� ���� ��� �������� ���������� ���� */
+            /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ */
             .modal-backdrop {
                 background-color: rgba(0, 0, 0, 0.9) !important;
             }
 
-            /* Базовый стиль модального окна */
+            /* Р‘Р°Р·РѕРІС‹Р№ СЃС‚РёР»СЊ РјРѕРґР°Р»СЊРЅРѕРіРѕ РѕРєРЅР° */
             .modal-content {
                 border-radius: 12px;
                 transition: background-color 0.3s, color 0.3s;
             }
 
-            /* Темная тема */
+            /* РўРµРјРЅР°СЏ С‚РµРјР° */
             [data-theme="dark"] .modal-content {
                 background-color: #1E1E1E;
                 color: #E0E0E0;
@@ -833,7 +833,7 @@
                 filter: invert(1);
             }
 
-            /* Убираем линию в header и footer модального окна */
+            /* РЈР±РёСЂР°РµРј Р»РёРЅРёСЋ РІ header Рё footer РјРѕРґР°Р»СЊРЅРѕРіРѕ РѕРєРЅР° */
             .modal-header,
             .modal-footer {
                 border: none !important;
@@ -1149,9 +1149,9 @@
             </section>
             <!--v-if-->
             <div class="app-inst">
-                <h4 class="app-inst_header">Инструкция для Android</h4>
-                <p class="app-inst_text"> ・ Установите приложение <span style="font-weight: 600;">INCY</span><br> ・
-                    Нажмите кнопку «Добавить ключ» </p>
+                <h4 class="app-inst_header">РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android</h4>
+                <p class="app-inst_text"> гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ <span style="font-weight: 600;">HAPP</span><br> гѓ»
+                    РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В» </p>
             </div>
             <!--v-if-->
             <!--v-if-->
@@ -1159,32 +1159,49 @@
             <!-- OS Sections -->
             <?php
                 $keyyy = isset($_GET['key']) ? $_GET['key'] : '';
+                $appConfig = [
+                    'name' => 'HAPP',
+                    'image' => 'img2/app_happ.png',
+                    'add_scheme' => 'happ://add/',
+                    'appstore_global' => 'https://apps.apple.com/us/app/happ-proxy-utility/id6504287215',
+                    'appstore_rus' => 'https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973',
+                    'macos_global' => 'https://apps.apple.com/us/app/happ-proxy-utility/id6504287215',
+                    'macos_rus' => 'https://apps.apple.com/ru/app/happ-proxy-utility-plus/id6746188973',
+                    'google_play' => 'https://play.google.com/store/apps/details?id=com.happproxy',
+                    'android_tv_apk' => 'https://github.com/Happ-proxy/happ-android/releases/latest/download/Happ.apk',
+                    'windows' => 'https://github.com/Happ-proxy/happ-desktop/releases/latest/download/setup-Happ.x64.exe',
+                ];
+                $preferredLang = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? '');
+                $isRussianStore = strpos($preferredLang, 'ru') === 0;
+                $iosStoreUrl = $isRussianStore ? $appConfig['appstore_rus'] : $appConfig['appstore_global'];
+                $macosStoreUrl = $isRussianStore ? $appConfig['macos_rus'] : $appConfig['macos_global'];
+                $addKeyUrl = '/redirect.php?url=' . urlencode($appConfig['add_scheme'] . $keyyy);
             ?>
             <section class="os-section ios">
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ" data-bs-original-title="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
-                        <img src="img2/incy.png">
-                        <h3>INCY</h3>
+                        <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                        <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 и новее <br>
+                            <i class="fa-solid fa-mobile-screen-button card_requirements_icon" style="margin-bottom: 15px;"></i> iOS 15 Рё РЅРѕРІРµРµ <br>
                             <i class="fa-solid fa-tv card_requirements_icon"></i> Apple TV <br>
                         </p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://apps.apple.com/ru/app/incy/id6756943388" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="<?php echo htmlspecialchars($iosStoreUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-app-store-ios"></i></span>
-                                <span class="step-label">Установить</span>
+                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ</span>
                             </a>
-                            <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Добавить ключ</span>
+                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">Скопировать ключ</span>
+                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
                             </a>
                         </div>
                     </div>
@@ -1194,27 +1211,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Рекомендуемое приложение" data-bs-original-title="Рекомендуемое приложение">
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ" data-bs-original-title="Р РµРєРѕРјРµРЅРґСѓРµРјРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ">
                                 <i class="fa-solid fa-bolt"></i></span>
                         </div>
-                        <img src="img2/incy.png">
-                        <h3>INCY</h3>
+                        <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                        <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements">
-                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 и новее <br>
-                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> Только для ARM-чипов <br>
+                            <i class="fa-solid fa-laptop card_requirements_icon"></i> macOS 12 Рё РЅРѕРІРµРµ <br>
+                            <i class="fa-solid fa-microchip card_requirements_icon mt-3"></i> РўРѕР»СЊРєРѕ РґР»СЏ ARM-С‡РёРїРѕРІ <br>
                         </p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-macos-arm64.dmg" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1 step-primary" href="<?php echo htmlspecialchars($macosStoreUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-apple"></i></span>
-                                <span class="step-label">Скачать .dmg</span>
+                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ .dmg</span>
                             </a>
-                            <a class="step-btn step-2 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Добавить ключ</span>
+                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
                             </a>
                             <a class="step-btn step-3 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">Скопировать ключ</span>
+                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
                             </a>
                         </div>
                     </div>
@@ -1225,27 +1242,27 @@
                 <div class="container py-5">
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
-                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="��������������� ����������" data-bs-original-title="��������������� ����������"><i class="fa-solid fa-bolt"></i></span>
+                            <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"><i class="fa-solid fa-bolt"></i></span>
                         </div>
-                        <img src="img2/incy.png">
-                        <h3>INCY</h3>
-                        <p class="app-card_requirements"><i class="fa-solid fa-mobile-screen-button card_requirements_icon"></i> Android 8.0 и новее<br></p>
+                        <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                        <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
+                        <p class="app-card_requirements"><i class="fa-solid fa-mobile-screen-button card_requirements_icon"></i> Android 8.0 Рё РЅРѕРІРµРµ<br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
-                                <span class="step-label">Установить [GPlay]</span>
+                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ [GPlay]</span>
                             </a>
-                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-primary" href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa fa-download"></i></span>
-                                <span class="step-label">Скачать [.apk]</span>
+                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ [.apk]</span>
                             </a>
-                            <a class="step-btn step-3 step-orange" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-3 step-orange" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Добавить ключ</span>
+                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
                             </a>
                             <a class="step-btn step-4 step-gray" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">Скопировать ключ</span>
+                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
                             </a>
                         </div>
                     </div>
@@ -1256,26 +1273,26 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
+                                aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
-                        <img src="img2/incy.png">
-                        <h3>INCY</h3>
+                        <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                        <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-laptop card_requirements_icon"></i>
-                            Windows 10 и новее <br></p>
+                            Windows 10 Рё РЅРѕРІРµРµ <br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/incy-windows-setup.exe" target="_blank" rel="noopener">
+                            <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['windows'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">1 <i class="fa-brands fa-windows"></i></span>
-                                <span class="step-label">Установить</span>
+                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ</span>
                             </a>
-                            <a class="step-btn step-2" href="/redirect.php?url=incy://add/<?php echo urlencode($keyyy); ?>" target="_blank" rel="noopener">
+                            <a class="step-btn step-2" href="<?php echo htmlspecialchars($addKeyUrl, ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">
                                 <span class="step-num">2 <i class="fa-solid fa-key"></i></span>
-                                <span class="step-label">Добавить ключ</span>
+                                <span class="step-label">Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡</span>
                             </a>
                             <a class="step-btn step-3" href="javascript:void(0);" onclick="copyToClipboard()">
                                 <span class="step-num">3 <i class="fa-solid fa-copy"></i></span>
-                                <span class="step-label">Скопировать ключ</span>
+                                <span class="step-label">РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡</span>
                             </a>
                         </div>
                     </div>
@@ -1286,26 +1303,26 @@
                     <div class="app-card">
                         <div class="position-absolute top-0 end-0 mt-3 me-3">
                             <span class="tooltip-icon" data-bs-toggle="tooltip" data-bs-placement="left"
-                                aria-label="��������������� ����������" data-bs-original-title="��������������� ����������">
+                                aria-label="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" data-bs-original-title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ">
                                 <i class="fa-solid fa-bolt"></i>
                             </span>
                         </div>
-                        <img src="img2/incy.png">
-                        <h3>INCY</h3>
+                        <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>">
+                        <h3><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h3>
                         <p class="app-card_requirements"><i class="fa-solid fa-tv card_requirements_icon"></i> Android
-                            TV 9 и новее <br></p>
+                            TV 9 Рё РЅРѕРІРµРµ <br></p>
                         <div class="button-group step-buttons">
-                            <a class="step-btn step-1" href="https://play.google.com/store/apps/details?id=llc.itdev.incy" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-1" href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">1 <i class="fa-brands fa-google-play"></i></span>
-                                <span class="step-label">Установить [GPlay]</span>
+                                <span class="step-label">РЈСЃС‚Р°РЅРѕРІРёС‚СЊ [GPlay]</span>
                             </a>
-                            <a class="step-btn step-2 step-primary" href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" rel="noopener noreferrer" target="_blank">
+                            <a class="step-btn step-2 step-primary" href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" rel="noopener noreferrer" target="_blank">
                                 <span class="step-num">2 <i class="fa fa-download"></i></span>
-                                <span class="step-label">Скачать [.apk]</span>
+                                <span class="step-label">РЎРєР°С‡Р°С‚СЊ [.apk]</span>
                             </a>
                             <a class="step-btn step-3 step-orange" href="#" @click.prevent="openInstructionOverlay">
                                 <span class="step-num">3 <i class="fa-solid fa-circle-info"></i></span>
-                                <span class="step-label">Инструкция</span>
+                                <span class="step-label">РРЅСЃС‚СЂСѓРєС†РёСЏ</span>
                             </a>
                         </div>
                     </div>
@@ -1314,32 +1331,32 @@
             <!--v-if-->
             <!-- Copy Key Button -->
             <!-- Copy Notification -->
-            <div class="support-notification"><b><i class="fa-regular fa-check me-1"></i> Ключ скопирован </b><br>Его
-                можно использовать в <b>любых</b> приложениях с поддержкой <b>VLESS / Reality</b></div>
+            <div class="support-notification"><b><i class="fa-regular fa-check me-1"></i> РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ </b><br>Р•РіРѕ
+                РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РІ <b>Р»СЋР±С‹С…</b> РїСЂРёР»РѕР¶РµРЅРёСЏС… СЃ РїРѕРґРґРµСЂР¶РєРѕР№ <b>VLESS / Reality</b></div>
                     </div>
                     <div class="page-slide instruction-page" ref="instructionPage" :aria-hidden="!showInstructionOverlay" role="dialog" aria-modal="true" tabindex="-1">
                         <div class="instruction-inner">
                             <div class="overlay-header">
                                 <button class="back-button" type="button" @click="closeInstructionOverlay">
                                     <i class="fa-solid fa-arrow-left"></i>
-                                    <span>Назад</span>
+                                    <span>РќР°Р·Р°Рґ</span>
                                 </button>
-                                <img src="img2/logo_1.png" class="overlay-logo" alt="INCY">
+                                    <img src="<?php echo htmlspecialchars($appConfig['image'], ENT_QUOTES, 'UTF-8'); ?>" class="overlay-logo" alt="<?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?>">
                             </div>
                             <div class="tv-instruction-card">
-                                <h1>Android TV — INCY</h1>
-                                <p>Следуйте этим шагам, чтобы установить приложение и активировать ключ подключения на Android TV.</p>
+                                <h1>Android TV вЂ” <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></h1>
+                                <p>РЎР»РµРґСѓР№С‚Рµ СЌС‚РёРј С€Р°РіР°Рј, С‡С‚РѕР±С‹ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ Рё Р°РєС‚РёРІРёСЂРѕРІР°С‚СЊ РєР»СЋС‡ РїРѕРґРєР»СЋС‡РµРЅРёСЏ РЅР° Android TV.</p>
                                 <ol class="tv-instruction-list">
-                                    <li>Откройте <strong>Google Play</strong> на телевизоре и установите <a href="https://play.google.com/store/apps/details?id=llc.itdev.incy" target="_blank" rel="noopener">INCY</a>. Если маркет недоступен, скачайте <a href="https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk" target="_blank" rel="noopener">APK-файл</a> и установите его вручную с USB-накопителя.</li>
-                                    <li>Запустите INCY, дайте приложению все запрошенные разрешения и завершите первоначальную настройку.</li>
-                                    <li>Добавьте ключ в приложения <strong>следуя инструкции на экране телевизора.</strong></li>
+                                    <li>РћС‚РєСЂРѕР№С‚Рµ <strong>Google Play</strong> РЅР° С‚РµР»РµРІРёР·РѕСЂРµ Рё СѓСЃС‚Р°РЅРѕРІРёС‚Рµ <a href="<?php echo htmlspecialchars($appConfig['google_play'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener"><?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?></a>. Р•СЃР»Рё РјР°СЂРєРµС‚ РЅРµРґРѕСЃС‚СѓРїРµРЅ, СЃРєР°С‡Р°Р№С‚Рµ <a href="<?php echo htmlspecialchars($appConfig['android_tv_apk'], ENT_QUOTES, 'UTF-8'); ?>" target="_blank" rel="noopener">APK-С„Р°Р№Р»</a> Рё СѓСЃС‚Р°РЅРѕРІРёС‚Рµ РµРіРѕ РІСЂСѓС‡РЅСѓСЋ СЃ USB-РЅР°РєРѕРїРёС‚РµР»СЏ.</li>
+                                    <li>Р—Р°РїСѓСЃС‚РёС‚Рµ <?php echo htmlspecialchars($appConfig['name'], ENT_QUOTES, 'UTF-8'); ?>, РґР°Р№С‚Рµ РїСЂРёР»РѕР¶РµРЅРёСЋ РІСЃРµ Р·Р°РїСЂРѕС€РµРЅРЅС‹Рµ СЂР°Р·СЂРµС€РµРЅРёСЏ Рё Р·Р°РІРµСЂС€РёС‚Рµ РїРµСЂРІРѕРЅР°С‡Р°Р»СЊРЅСѓСЋ РЅР°СЃС‚СЂРѕР№РєСѓ.</li>
+                                    <li>Р”РѕР±Р°РІСЊС‚Рµ РєР»СЋС‡ РІ РїСЂРёР»РѕР¶РµРЅРёСЏ <strong>СЃР»РµРґСѓСЏ РёРЅСЃС‚СЂСѓРєС†РёРё РЅР° СЌРєСЂР°РЅРµ С‚РµР»РµРІРёР·РѕСЂР°.</strong></li>
                                 </ol>
                                 <div class="tv-instruction-note">
-                                    Если столкнётесь со сложностями при установке из APK, включите «Неизвестные источники» в настройках Android TV и повторите попытку.<br><br>Или обратитесь к нам <a href="https://t.me/prsta_helpbot" target="_blank" rel="noopener"><strong>в поддержку</strong></a> ❤️
+                                    Р•СЃР»Рё СЃС‚РѕР»РєРЅС‘С‚РµСЃСЊ СЃРѕ СЃР»РѕР¶РЅРѕСЃС‚СЏРјРё РїСЂРё СѓСЃС‚Р°РЅРѕРІРєРµ РёР· APK, РІРєР»СЋС‡РёС‚Рµ В«РќРµРёР·РІРµСЃС‚РЅС‹Рµ РёСЃС‚РѕС‡РЅРёРєРёВ» РІ РЅР°СЃС‚СЂРѕР№РєР°С… Android TV Рё РїРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ.<br><br>РР»Рё РѕР±СЂР°С‚РёС‚РµСЃСЊ Рє РЅР°Рј <a href="https://t.me/prsta_helpbot" target="_blank" rel="noopener"><strong>РІ РїРѕРґРґРµСЂР¶РєСѓ</strong></a> вќ¤пёЏ
                                 </div>
                                 <button class="instruction-back-button" type="button" @click="closeInstructionOverlay">
                                     <i class="fa-solid fa-arrow-left"></i>
-                                    <span>Назад</span>
+                                    <span>РќР°Р·Р°Рґ</span>
                                 </button>
                             </div>
                         </div>
@@ -1354,9 +1371,9 @@
                 const urlParams = new URLSearchParams(window.location.search);
                 const key = urlParams.get('key') || '';
                 navigator.clipboard.writeText(key).then(() => {
-                    alert("Ключ скопирован!");
+                    alert("РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ!");
                 }).catch(err => {
-                    console.error("Ошибка при копировании:", err);
+                    console.error("РћС€РёР±РєР° РїСЂРё РєРѕРїРёСЂРѕРІР°РЅРёРё:", err);
                 });
             }
         </script>
@@ -1366,14 +1383,15 @@
         return {
             theme: this.detectInitialTheme(),
             selectedOS: "",
-            selectedOSText: "Android", // Текст кнопки
-            selectedOSIcon: "fa-brands fa-android", // Иконка кнопки // Определяем тему сразу
+            selectedOSText: "Android", // РўРµРєСЃС‚ РєРЅРѕРїРєРё
+            selectedOSIcon: "fa-brands fa-android", // РРєРѕРЅРєР° РєРЅРѕРїРєРё // РћРїСЂРµРґРµР»СЏРµРј С‚РµРјСѓ СЃСЂР°Р·Сѓ
             showSupportNotification: false,
             showInstructionOverlay: false,
             previousScrollTop: 0,
             bodyOverflowCache: '',
             showHiddifyNotification: false,
             showHappNotification: false,
+            clientConfig: <?php echo json_encode($appConfig, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE); ?>,
             subscriptionUrl: '',
             operatingSystems: ["iOS", "macOS", "Android", "Windows", "Android TV"],
             osIcons: {
@@ -1387,7 +1405,7 @@
             selectedOS: "",
             showNotification: false,
             buttonState: {
-                text: "Скопировать ключ",
+                text: "РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡",
                 icon: "fa-solid fa-copy",
                 disabled: false,
                 noPointerEvents: false,
@@ -1402,21 +1420,21 @@
             const key = urlParams.get('key') || '';
             navigator.clipboard.writeText(key).then(() => {
                 this.buttonState = {
-                    text: "Ключ скопирован",
+                    text: "РљР»СЋС‡ СЃРєРѕРїРёСЂРѕРІР°РЅ",
                     icon: "fa-solid fa-check",
                     disabled: true,
                     noPointerEvents: true,
                 };
                 setTimeout(() => {
                     this.buttonState = {
-                        text: "Скопировать ключ",
+                        text: "РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РєР»СЋС‡",
                         icon: "fa-solid fa-copy",
                         disabled: false,
                         noPointerEvents: false,
                     };
                 }, 5000);
             }).catch(err => {
-                console.error('Ошибка при копировании в буфер обмена: ', err);
+                console.error('РћС€РёР±РєР° РїСЂРё РєРѕРїРёСЂРѕРІР°РЅРёРё РІ Р±СѓС„РµСЂ РѕР±РјРµРЅР°: ', err);
             })
             },
             openInstructionOverlay() {
@@ -1451,33 +1469,33 @@
             switch (this.selectedOS) {
                 case "iOS":
                     return {
-                        header: "Инструкция для iOS",
-                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ iOS",
+                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
                     };
                 case "macOS":
                     return {
-                        header: "Инструкция для macOS",
-                        text: "・ Скачайте приложение INCY<br>・ Откройте файл .dmg<br>・ Нажмите кнопку «Добавить ключ»"
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ macOS",
+                        text: "гѓ» РЎРєР°С‡Р°Р№С‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РћС‚РєСЂРѕР№С‚Рµ С„Р°Р№Р» .dmg<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
                     };
                 case "Android":
                     return {
-                        header: "Инструкция для Android",
-                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android",
+                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
                     };
                 case "Windows":
                     return {
-                        header: "Инструкция для Windows",
-                        text: "・ Установите приложение INCY<br>・ Нажмите кнопку «Добавить ключ»"
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Windows",
+                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» РќР°Р¶РјРёС‚Рµ РєРЅРѕРїРєСѓ В«Р”РѕР±Р°РІРёС‚СЊ РєР»СЋС‡В»"
                     };
                 case "Android TV":
                     return {
-                        header: "Инструкция для Android TV",
-                        text: "・ Установите приложение INCY<br>・ Запустите его<br>・ Следуйте инструкции на экране"
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ РґР»СЏ Android TV",
+                        text: "гѓ» РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РїСЂРёР»РѕР¶РµРЅРёРµ HAPP<br>гѓ» Р—Р°РїСѓСЃС‚РёС‚Рµ РµРіРѕ<br>гѓ» РЎР»РµРґСѓР№С‚Рµ РёРЅСЃС‚СЂСѓРєС†РёРё РЅР° СЌРєСЂР°РЅРµ"
                     };
                 default:
                     return {
-                        header: "Инструкция",
-                        text: "Выберите вашу операционную систему для получения инструкции."
+                        header: "РРЅСЃС‚СЂСѓРєС†РёСЏ",
+                        text: "Р’С‹Р±РµСЂРёС‚Рµ РІР°С€Сѓ РѕРїРµСЂР°С†РёРѕРЅРЅСѓСЋ СЃРёСЃС‚РµРјСѓ РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ РёРЅСЃС‚СЂСѓРєС†РёРё."
                     };
             }
         },
@@ -1503,16 +1521,17 @@
         getClientLink(client) {
         const urlParams = new URLSearchParams(window.location.search);
         const key = urlParams.get('key') || '';
+        const isRussianStore = (navigator.language || '').toLowerCase().startsWith('ru');
         const clientLinks = {
-            happ_add: `incy://add/${key}`,
-            happ_appstore: `https://apps.apple.com/ru/app/incy/id6756943388`,
-            happ_googleplay: `https://play.google.com/store/apps/details?id=llc.itdev.incy`,
+            happ_add: `${this.clientConfig.add_scheme}${key}`,
+            happ_appstore: isRussianStore ? this.clientConfig.appstore_rus : this.clientConfig.appstore_global,
+            happ_googleplay: this.clientConfig.google_play,
             v2box_appstore: `https://apps.apple.com/ru/app/v2box-v2ray-client/id6446814690`,
             v2box_open: `v2box://`,
             hiddify_microsoftstore: `https://apps.microsoft.com/detail/9pdfnl3qv2s5?hl=ru-RU&gl=DE`,
             hiddify_add: `hiddify://import/${key}`,
-            vpn4tv_googleplay: `https://play.google.com/store/apps/details?id=llc.itdev.incy`,
-            vpn4tv_apk: `https://github.com/INCY-DEV/incy-platforms/releases/latest/download/Incy.apk`,
+            vpn4tv_googleplay: this.clientConfig.google_play,
+            vpn4tv_apk: this.clientConfig.android_tv_apk,
         };
         return clientLinks[client] || key;
     },
@@ -1575,10 +1594,10 @@
                         this.showCopyNotification = false;
                     }, 8000);
                 }).catch(err => {
-                    console.error("Ошибка копирования:", err);
+                    console.error("РћС€РёР±РєР° РєРѕРїРёСЂРѕРІР°РЅРёСЏ:", err);
                 });
             } else {
-                alert('Ключ не найден в ссылке!');
+                alert('РљР»СЋС‡ РЅРµ РЅР°Р№РґРµРЅ РІ СЃСЃС‹Р»РєРµ!');
             }
         },
         detectOS() {
@@ -1588,7 +1607,7 @@
     if (userAgent.includes("mac")) return "macOS";
     if (userAgent.includes("android")) return "Android";
     if (userAgent.includes("tv")) return "Android TV";
-    return "Выберите ОС"; // Если ОС не найдена
+    return "Р’С‹Р±РµСЂРёС‚Рµ РћРЎ"; // Р•СЃР»Рё РћРЎ РЅРµ РЅР°Р№РґРµРЅР°
 }
 ,
         setOS(os) {
@@ -1596,7 +1615,7 @@
     this.updateActiveSection();
     this.updateInstructionText();
 
-    // Обновляем текст и иконку для кнопки меню
+    // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ Рё РёРєРѕРЅРєСѓ РґР»СЏ РєРЅРѕРїРєРё РјРµРЅСЋ
     switch (os) {
         case "iOS":
             this.selectedOSText = "iOS";
@@ -1650,13 +1669,13 @@
     this.applyTheme(this.theme);
     this.initializeSubscriptionUrl();
 
-    // Выбираем операционную систему сразу при загрузке
+    // Р’С‹Р±РёСЂР°РµРј РѕРїРµСЂР°С†РёРѕРЅРЅСѓСЋ СЃРёСЃС‚РµРјСѓ СЃСЂР°Р·Сѓ РїСЂРё Р·Р°РіСЂСѓР·РєРµ
     this.setOS(this.detectOS());
 
-    // Обновляем активную секцию на основе ОС
+    // РћР±РЅРѕРІР»СЏРµРј Р°РєС‚РёРІРЅСѓСЋ СЃРµРєС†РёСЋ РЅР° РѕСЃРЅРѕРІРµ РћРЎ
     this.updateActiveSection();
 
-    // Обновляем текст инструкции
+    // РћР±РЅРѕРІР»СЏРµРј С‚РµРєСЃС‚ РёРЅСЃС‚СЂСѓРєС†РёРё
     this.updateInstructionText();
 
     this.setupTelegramThemeListener();
